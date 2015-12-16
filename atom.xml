@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-16T18:35:01+00:00</updated>
+  <updated>2015-12-16T18:41:24+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -14,13 +14,27 @@
   
   <entry>
     
-    <title type="html"><![CDATA[Creating a Github Blog Using Octopress]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/16/creating-a-github-blog-using-octopress/"/>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://androidhell.github.io/blog/2015/12/16/hello-world/"/>
     
-    <updated>2015-12-16T18:20:52+00:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/16/creating-a-github-blog-using-octopress</id>
+    <updated>2015-12-16T18:37:05+00:00</updated>
+    <id>http://http://androidhell.github.io/blog/2015/12/16/hello-world</id>
     
-      <content type="html"><![CDATA[
+      <content type="html"><![CDATA[<p>This is my first post so I felt it was obvious that I should title it &ldquo;Hello World.&rdquo;</p>
+
+<p>I&rsquo;m hoing to use this as my official platform for writing out my experiences in the programming world.</p>
+
+<p>If this dies, then it dies.</p>
+
+<p>I&rsquo;m going to work on setting up this site&rsquo;s styling and get a proper about me page up before I delve further into things.</p>
+
+<p>This will aslo be a chance for me to further explore markdown since my knowledge is limited to what little I have done on github and commenting on reddit.</p>
+
+<p>Until I have mroe to say I will leve off at this point.</p>
+
+<p>This is my attempt a maintaining a developer space on my github via Octopress, basically because it&rsquo;s cool and all the hipsters are gonna be jealous of my hacky blog skills.</p>
+
+<p>At that, I say, Goodbye World!</p>
 ]]></content>
       
   </entry>
