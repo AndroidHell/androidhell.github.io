@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://androidhell.github.io/sitemap.xml 
