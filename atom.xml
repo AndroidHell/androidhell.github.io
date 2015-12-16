@@ -4,13 +4,26 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-16T21:35:26+00:00</updated>
+  <updated>2015-12-16T21:39:55+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[This is a new post]]></title>
+    <link href="http://androidhell.github.io/blog/2015/12/16/this-is-a-new-post/"/>
+    
+    <updated>2015-12-16T21:39:46+00:00</updated>
+    <id>http://http://androidhell.github.io/blog/2015/12/16/this-is-a-new-post</id>
+    
+      <content type="html"><![CDATA[
+]]></content>
+      
+  </entry>
   
   <entry>
     
