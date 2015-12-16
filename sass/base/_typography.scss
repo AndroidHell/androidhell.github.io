@@ -1,4 +1,4 @@
-$blockquote: $type-border !default;
+//$blockquote: $type-border !default;
 $sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
 $serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
@@ -14,29 +14,41 @@ $header-subtitle-font-family: $heading-font-family !default;
 .serif { font-family: $serif; }
 .mono { font-family: $mono; }
 
-body > header h1 {
-  font-size: 2.2em;
-  @extend .heading;
-  font-family: $header-title-font-family;
-  font-weight: normal;
-  line-height: 1.2em;
-  margin-bottom: 0.6667em;
-}
-body > header h2 {
-  font-family: $header-subtitle-font-family;
+#sidebar {
+  h1 {
+    font-size: 1.5em;
+    @extend .heading;
+    font-family: $header-title-font-family;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-bottom: 0.6667em;
+    a {
+      font-size: 1em;
+    }
+  }
+  h2 {
+    font-size: .8em;
+    line-height: 1em;
+    font-family: $header-subtitle-font-family;
+  }
+  a {
+    font-size: .7em;
+  }
+  li {
+    line-height: 1em;
+  }
 }
 
 body {
   line-height: 1.5em;
-  color: $text-color;
   @extend .serif;
 }
 h1 {
   font-size: 2.2em;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1101px) {
   body { font-size: 1.15em; }
   h1 { font-size: 2.6em; line-height: 1.2em; }
 }
@@ -114,13 +126,13 @@ article blockquote {
   font-size: 1.2em;
   line-height: 1.5em;
   padding-left: 1em;
-  border-left: 4px solid rgba($text-color-light, .5);
+  //border-left: 4px solid rgba($text-color-light, .5);
   cite {
     font-style: italic;
-    a { color: $text-color-light !important; word-wrap: break-word; }
-    &:before { content: '\2014'; padding:{right: .3em; left: .3em;} color: $text-color-light; }
+    a { word-wrap: break-word; }
+    &:before { content: '\2014'; padding:{right: .3em; left: .3em;} }
   }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1101px) {
     padding-left: 1.5em;
     border-left-width: 4px;
   }
@@ -162,3 +174,26 @@ article blockquote {
   word-wrap: break-word;
 }
 
+a {
+  text-decoration: none;
+}
+
+.articlemeta {
+  line-height: 1em;
+}
+.articlemeta > .plus > a {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+
+h2.entry-title {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 1100px) {
+  #sidebar .content {
+    font-size: 1.2em;
+  }
+}
