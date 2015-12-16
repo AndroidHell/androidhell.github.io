@@ -422,7 +422,7 @@ end
 desc "pushes to git with commit"
 task :push do
     system "git add ."
-    message = "Site updated at #{Time.now}"
+    message = "Site updated at #{Time.now.utc}"
     system "git commit -am \"#{message}\""
     system "git push origin source" # or "git push origin master"
 end
