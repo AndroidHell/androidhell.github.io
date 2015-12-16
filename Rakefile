@@ -404,3 +404,25 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+
+# append this to your rakefile and simply type "rake blog" for full deployment process
+desc "Generate website, add, commit and deploy"
+task :blog do
+    system "git add ."
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -am \"#{message}\""
+    Rake::Task[:integrate].execute
+    Rake::Task[:generate].execute
+    system "git push origin source"
+    Rake::Task[:deploy].execute
+end
+
+# append this to your rakefile to add autopushing
+desc "pushes to git with commit"
+task :push do
+    system "git add ."
+    message = "Site updated at #{Time.now}"
+    system "git commit -am \"#{message}\""
+    system "git push origin source" # or "git push origin master"
+end
