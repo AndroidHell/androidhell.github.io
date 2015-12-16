@@ -39,18 +39,20 @@ $solarized: light !default;
 }
 
 $pre-bg: $color-gray04;
-$pre-border: $color-gray03;
+$pre-border: $color-gray04;
 
 article{
 	code, pre{
 		background: $pre-bg;
 		border: 1px solid $pre-border;
 		font-family: $font-mono;
+        color: $color-blog-body;
 	}
 	code{
 		font-size: 0.9em;
-		padding: 1px 3px;
-		margin: 0 3px;
+		padding: 0px 3px;
+		margin: 1px 3px;
+		@include border-radius(5px);
 	}
 	pre{
 		font-size: 1 / 0.9em;
@@ -58,27 +60,32 @@ article{
 		margin-top: 10px;
 		padding: 5px 15px;
 		overflow-x: auto;
+		@include border-radius(5px);
 		code{
 			background: none;
 			border: none;
 			padding: 0;
 			margin: 0;
+			@include border-radius(0);
 		}
 	}
 }
 
 figure.code{
+	background: $pre-bg;
 	border: 1px solid $pre-border;
-	margin-top: 10px;
+	margin-top: 3px;
+    margin-bottom: 1.5em;
 	padding: 5px 15px;
+	@include border-radius(5px);
 	figcaption{
 		font-size: 0.9em;
 		position: relative;
 		span{
 			margin: -5px -15px 0;
 			padding: 5px 15px;
-			display: block;
-			background: #ececec;
+			display: none;
+			@include background(linear-gradient(top, $pre-border, $pre-bg));
 			&:empty{
 				display: none;
 			}
@@ -94,18 +101,20 @@ figure.code{
 		border: none;
 		padding: 0;
 		margin: 0;
+		@include border-radius(0);
 	}
 	.highlight{
 		overflow-x: auto;
 	}
 	.line-numbers{
+        display: none;
 		border-right: 1px solid $pre-border;
 		font-family: $font-mono;
 		padding-right: 15px;
 		text-align: right;
 	}
+    
 	table{
-		background: white;
 		border: none;
 		text-align: left;
 		margin-top: 0;
@@ -113,22 +122,24 @@ figure.code{
 			text-align: left;
 		}
 	}
+    
 	td.code{
 		width: 100%;
-		padding-left: 15px;
+		padding-left: 5px;
+		overflow-x: auto;
 	}
 }
 .entry-content .gist{
-	// background: $pre-bg;
+	background: $pre-bg;
 	color: $color-gray01;
-	padding: 15px 15px 5px 0px;
+	padding: 30px 15px 5px;
 	margin-top: 10px;
 	border: 1px solid $pre-border;
 	position: relative;
 	overflow: hidden;
+	@include border-radius(5px);
 	.gist-file{
 		margin: 0;
-		border: none;
 		.gist-data{
 			background: none;
 			border: none;
@@ -136,17 +147,13 @@ figure.code{
 				font: 0.9em $font-mono;
 				line-height: 1.5;
 			}
-			table {
-				background: white;
-				border: none;
-			}
 		}
 		.gist-meta{
 			font: 300 0.9em $font-default;
 			line-height: 1.5;
 			margin: 0 -16px -6px;
 			padding: 5px 15px;
-			background: #ececec;
+			@include background(linear-gradient(top, $pre-bg, $pre-border));
 			a{
 				color: $color-main;
 				&:first-of-type{
@@ -161,7 +168,7 @@ figure.code{
 					left: 0;
 					padding: 5px 15px;
 					width: 100%;
-					background: #ececec;
+					@include background(linear-gradient(top, $pre-border, $pre-bg));
 				}
 			}
 		}
