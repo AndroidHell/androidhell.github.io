@@ -9,9 +9,6 @@
     <lastmod>2015-12-16T18:37:05+00:00</lastmod>
   </url>
   <url>
-    <loc>http://androidhell.github.io/</loc>
-  </url>
-  <url>
     <loc>http://androidhell.github.io/blog/</loc>
   </url>
   <url>
@@ -24,9 +21,10 @@
     <loc>http://androidhell.github.io/blog/categories/</loc>
   </url>
   <url>
-    <loc>http://androidhell.github.io/home/</loc>
+    <loc>http://androidhell.github.io/about/</loc>
   </url>
   <url>
-    <loc>http://androidhell.github.io/about/</loc>
+    <loc>http://androidhell.github.io/index.html</loc>
+    <lastmod>2015-12-16T21:46:57+00:00</lastmod>
   </url>
 </urlset>
