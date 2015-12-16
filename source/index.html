@@ -1,18 +1,8 @@
 ---
-title: Blog
-layout: default
+layout: page
+title: "index"
+date: 2015-12-16 21:19
+comments: true
+sharing: true
+footer: true
 ---
-
-{% assign index = true %}
-{% for post in paginator.posts %}
-{% assign content = post.content %}
-    <article class="post">{% include article.html %}</article>
-{% endfor %}
-<nav id="pagenavi">
-    {% if paginator.previous_page %}
-        <a href="{{paginator.previous_page}}" class="prev">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-        <a href="archives/index.html" class="next">Archives</a>
-    {% endif %}
-</nav>
