@@ -7,9 +7,10 @@ sharing: true
 footer: true
 ---
 
-This is my little blogspace using Octopress so I can impress my friends and random hipsters at coffeeshops with my amazing hacking skills.
 
-**&lt;about-me&gt;**I'm struggling to understand anything related to programming even though yo ucan clearly see in my github repo that I have done some stuff. I'm originally from Indiana but am now stuck in the great nation of Texas. I'm going into my final semester of college at WTAMU and I couldn't be more happy/scared/annoyed/exhausted/ansty about it. 
+**&lt;about-me&gt;**This is my little blogspace using Octopress so I can impress my friends and random hipsters at coffeeshops with my amazing hacking skills.
+
+I'm struggling to understand anything related to programming even though yo ucan clearly see in my github repo that I have done some stuff. I'm originally from Indiana but am now stuck in the great nation of Texas. I'm going into my final semester of college at WTAMU and I couldn't be more happy/scared/annoyed/exhausted/ansty about it. 
 
 I have worked with HTML, CSS, PHP, Ruby, JavaScript, C#, SQL, and NoSQL. I've dabbled in Python and failed hard at leanring Objective C. Every time I try to learn anything related t ocoding, I end up giving up and moving to something new. Which is why I'm bascailly cut out for front-end web design. Programming for programmers that never made it!**&lt;/about-me&gt;**
 
