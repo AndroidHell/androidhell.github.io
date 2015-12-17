@@ -35,3 +35,8 @@ The list will be altered before the year is out. My main focus on the next year 
 It's looking like the web design business is not picking up and isn't at all where I was hoping it would be at this point. I'm waiting out these next few weeks at FP and then I donno what I'm going to do after that. 
 
 I might sleep until school starts again. Maybe play some games. I'm in the middle of Deponia and it makes me feel dumb. I still haven’t done my annual Half-Life-athon or Mass Effect run.
+
+
+EDIT: I also  need to figure out how to make this octopress thing my own since it is showing that I have done 860+ commits but those are from other people. I think I need to do a manual install instead of downloading it from git through command line. 
+
+-Ralkkai
