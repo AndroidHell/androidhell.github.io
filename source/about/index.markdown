@@ -16,18 +16,4 @@ I have worked with HTML, CSS, PHP, Ruby, JavaScript, C#, SQL, and NoSQL. I've da
 
 **&lt;free-time&gt;**I am usually tinkering with some sort of computer shenanigans. I'm a loud and proud Linux nerd. I'm an indie gamer becasue it's better than the alternative. I love beer, coffee, and horror movies.**&lt;/free-time&gt;**
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-|<a href="https://github.com/{{ site.github_username }}" style="text-align: center;">
-    <i class="fa fa-github"></i> **&lt;GitHub&gt;**
-</a>|
-<a href="https://twitter.com/dot_isRalkkai" style="text-align: center;">
-    <i class="fa fa-twitter"></i> **&lt;Twitter&gt;**
-</a>|
-<a href="https://plus.google.com/{{ site.google_plus_username }}" style="text-align: center;">
-  <i class="fa fa-google-plus"></i> **&lt;Google+&gt;**
-</a>|
-<a href="https://www.facebook.com/{{ site.facebook_username }}" style="text-align: center;">
-    <i class="fa fa-facebook"></i> **&lt;Facebook&gt;**
-</a>|
 
