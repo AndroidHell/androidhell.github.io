@@ -18,26 +18,16 @@ I have worked with HTML, CSS, PHP, Ruby, JavaScript, C#, SQL, and NoSQL. I've da
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-<table>
-  <tr>
-    <td>
-        <a href="https://twitter.com/dot_isRalkkai">
-            <i class="fa fa-twitter"></i> &lt;Twitter&gt;
-        </a>
-    </td>
-    <td>
-        <a href="https://github.com/{{ site.github_username }}">
-            <i class="fa fa-github"></i> GitHub
-        </a>
-    </td> 
-    <td>
-        <a href="https://plus.google.com/{{ site.google_plus_username }}">
-          <i class="fa fa-google-plus"></i> Google+
-        </a>
-    </td>
-    <td>
-        <a href="https://www.facebook.com/{{ site.facebook_username }}">
-            <i class="fa fa-facebook"></i> Facebook
-        </a>
-    </td>
-</table
+|<a href="https://github.com/{{ site.github_username }}">
+    <i class="fa fa-github"></i> **&lt;GitHub&gt;**
+</a>|
+<a href="https://twitter.com/dot_isRalkkai">
+    <i class="fa fa-twitter"></i> **&lt;Twitter&gt;**
+</a>|
+<a href="https://plus.google.com/{{ site.google_plus_username }}">
+  <i class="fa fa-google-plus"></i> **&lt;Google+&gt;**
+</a>|
+<a href="https://www.facebook.com/{{ site.facebook_username }}">
+    <i class="fa fa-facebook"></i> **&lt;Facebook&gt;**
+</a>|
+
