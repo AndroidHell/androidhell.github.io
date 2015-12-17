@@ -7,4 +7,4 @@ sharing: true
 footer: true
 ---
 
-test
+<p style="color: red;">test</p>
