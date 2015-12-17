@@ -15,3 +15,29 @@ I'm struggling to understand anything related to programming even though you can
 I have worked with HTML, CSS, PHP, Ruby, JavaScript, C#, SQL, and NoSQL. I've dabbled in Python and failed hard at leanring Objective C. Every time I try to learn anything related to coding, I end up giving up and moving to something new. Which is why I'm bascailly cut out for front-end web design. Programming for programmers that never made it!**&lt;/about-me&gt;**
 
 **&lt;free-time&gt;**I am usually tinkering with some sort of computer shenanigans. I'm a loud and proud Linux nerd. I'm an indie gamer becasue it's better than the alternative. I love beer, coffee, and horror movies.**&lt;/free-time&gt;**
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<table>
+  <tr>
+    <td>
+        <a href="https://twitter.com/dot_isRalkkai">
+            <i class="fa fa-twitter"></i> &lt;Twitter&gt;
+        </a>
+    </td>
+    <td>
+        <a href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github"></i> GitHub
+        </a>
+    </td> 
+    <td>
+        <a href="https://plus.google.com/{{ site.google_plus_username }}">
+          <i class="fa fa-google-plus"></i> Google+
+        </a>
+    </td>
+    <td>
+        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+            <i class="fa fa-facebook"></i> Facebook
+        </a>
+    </td>
+</table
