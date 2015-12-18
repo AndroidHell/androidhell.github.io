@@ -1,0 +1,53 @@
+---
+layout: post
+title: "blogspot-07.11.15"
+date: 2015-12-18 21:03:17 +0000
+comments: true
+categories: 
+---
+
+I'm skipping workout to focus on code this morning. I'm working on EC for the time being and wanted to write a quick followup to the whole devise gem praise I gave yesterday. The gem is great for automating all your authentication needs but according to the author of the guide on Udemy, it isn't easy to re-style the alert messages to reflect those of actual Bootstrap. He wrote a weird bit of voodoo magic that accomplishes that.
+
+```html
+<% flash.each do |name, msg| %>
+  <% if msg.is_a?(String) %>
+    <div class="alert alert-<%= name.to_s == "notice" ? "success" : "danger" %> alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <%= content_tag :div, msg, :id => "flash_#{name}" %>
+    </div>
+  <% end %>
+<% end %>
+```
+
+He placed this bit of crazy right above the <% yield %> tag that displays the pay content. Since this is in application.html.erb it will be able to function on all pages. 
+
+On reflection, it is really interesting that a developer can take something as complicated as authentication and form validation and wrap it up into a nice little import-able lib/gem and someone else can point out a single "unfixable" flaw and write some code that acts as a standalone fix.
+
+
+EDIT: Second part of code magic. Make a new file in app/helpers/ called devise_helper.rb and add:
+
+```ruby
+module DeviseHelper
+  def devise_error_messages!
+    return "" if resource.errors.empty?
+
+    messages = resource.errors.full_messages.map { |msg| content_tag(:li, msg) }.join
+    sentence = I18n.t("errors.messages.not_saved",
+                                  :count => resource.errors.count,
+                                  :resource => resource.class.model_name.human)
+
+     html = <<-HTML
+    <div class="alert alert-danger alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <h4>#{sentence}</h4>
+      #{messages}
+    </div>
+    HTML
+
+     html.html_safe
+  end
+end
+```
+
+UPDATE: Fixed the applicatoin.html.erb code to show green on success and red on error. The code from the guide was for a previous version of Rails and stuff got changed and it treated a bit differently in the version I am using (v. 4.2.1).
+
