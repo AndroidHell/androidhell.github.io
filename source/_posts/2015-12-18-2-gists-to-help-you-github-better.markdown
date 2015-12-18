@@ -18,10 +18,11 @@ This following one is helpfull for a quick automated pus hto github. I like t oc
 
 You can change the commands to whatever you want but as is, run the first by typing "rake blog" and the second by "rake push".
 
-If yo uadd these to the bottom of the Rakefile in your project they should work out of the box.
+If you add these to the bottom of the Rakefile in your project they should work out of the box.
 
 -R
 
+The above linked to my github gists and the below is inline markdown. I really jsut did htis to learn how for future reasons.
 
 Alternate code listed:
 
