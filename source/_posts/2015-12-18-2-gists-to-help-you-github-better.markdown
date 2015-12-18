@@ -19,3 +19,35 @@ This following one is helpfull for a quick automated pus hto github. I like t oc
 You can change the commands to whatever you want but as is, run the first by typing "rake blog" and the second by "rake push".
 
 If yo uadd these to the bottom of the Rakefile in your project they should work out of the box.
+
+-R
+
+
+Alternate code listed:
+
+```ruby
+# append this to your rakefile and simply type "rake blog" for full deployment process
+desc "Generate website, add, commit and deploy"
+task :blog do
+    system "git add ."
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -am \"#{message}\""
+    Rake::Task[:integrate].execute
+    Rake::Task[:generate].execute
+    system "git push origin source"
+    Rake::Task[:deploy].execute
+end
+```
+
+and
+
+```ruby
+# append this to your rakefile to add autopushing
+desc "pushes to git with commit"
+task :push do
+    system "git add ."
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -am \"#{message}\""
+    system "git push origin source" # or "git push origin master"
+end
+```
