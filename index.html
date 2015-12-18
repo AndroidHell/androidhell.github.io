@@ -7,7 +7,8 @@
 
 	<meta name="author" content="Ralkkai">
 
-<meta name="description" content="So it&rsquo;s Friday again. Made it through another week. One of my last at FP actually. Fridays at Financial Payments, over the duration of my &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="... # append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process
+desc &quot;Generate website, add, commit and &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -47,6 +48,47 @@
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2015/12/18/2-gists-to-help-you-github-better/">2 Gists to Help You Github Better.</a>
+			
+		</h2>
+		<div class="meta date">
+
+
+
+<time class='entry-date' datetime='2015-12-18T20:43:56+00:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span></time></div>
+	</header>
+	<div class="entry-content">
+		<div><script src='https://gist.github.com/f64123058be1f84a3379.js'></script>
+<noscript><pre><code>...
+
+# append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process
+desc &quot;Generate website, add, commit and deploy&quot;
+task :blog do
+    system &quot;git add .&quot;
+    message = &quot;Site updated at #{Time.now.utc}&quot;
+    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
+    Rake::Task[:integrate].execute
+    Rake::Task[:generate].execute
+    system &quot;git push origin source&quot;
+    Rake::Task[:deploy].execute
+end
+
+...</code></pre></noscript></div>
+
+
+		
+		
+	</div>
+
+
+	
+	</article>
 
 
     <article class="post">

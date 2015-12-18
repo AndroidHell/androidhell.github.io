@@ -4,13 +4,42 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-18T20:35:43+00:00</updated>
+  <updated>2015-12-18T20:44:32+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[2 gists to help you github better.]]></title>
+    <link href="http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better/"/>
+    
+    <updated>2015-12-18T20:43:56+00:00</updated>
+    <id>http://http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better</id>
+    
+      <content type="html"><![CDATA[<div><script src='https://gist.github.com/f64123058be1f84a3379.js'></script>
+<noscript><pre><code>...
+
+# append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process
+desc &quot;Generate website, add, commit and deploy&quot;
+task :blog do
+    system &quot;git add .&quot;
+    message = &quot;Site updated at #{Time.now.utc}&quot;
+    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
+    Rake::Task[:integrate].execute
+    Rake::Task[:generate].execute
+    system &quot;git push origin source&quot;
+    Rake::Task[:deploy].execute
+end
+
+...</code></pre></noscript></div>
+
+]]></content>
+      
+  </entry>
   
   <entry>
     
