@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Magic Panel - -VODDOO"
+title: "The Magic Panel - blogspot"
 date: 2015-12-18 21:06:18 +0000
 comments: true
 categories: 
