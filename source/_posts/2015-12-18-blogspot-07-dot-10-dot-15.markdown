@@ -1,0 +1,22 @@
+---
+layout: post
+title: "blogspot-07.10.15"
+date: 2015-12-18 21:00:42 +0000
+comments: true
+categories: 
+---
+
+I am currently on chapter 10 of the Hartl book with the Twitter clone and about halfway through the Etsy clone. I think for the time being I will call them TC and EC, respectively. I learned a very interesting thing about Rails sine I am working on the 2 projects in tandem. There is an easy way and a hard way in Rails.
+
+I spent about 4-5 hours working through the login stuff for TC because Hartl has you do it all by hand. Now, that covers the gambit. Logging in, logging out, signing up, etc. It also covers form validation which is a very important aspect of web apps and sites in today's current state of internet. We don't yet have an internet ID we can use for everything. Maybe an internet driver's licence will be a future project.
+
+So Hartl grinds it out the old fashioned way, and mind you, Rails is fairly stream-lined compared to ASP.NET or other MVC environments that I am aware of. But the Udemy video tutorial guy is awesomely lazy and is like, there's a gem that handles all the logging in. You just gotta grab it, bundle install, and the configure the gem for your application. After that, it creates all the routes for you and it's a matter of plugging the routes into the forms you build from scratch. And I mean you can barely even call that "from scratch."
+
+```html
+<li><%= link_to "About", pages_about_path %></li>
+<li><%= link_to "Contact", pages_contact_path %></li>
+```
+
+is all you really need to do. The gem has already built the pages that those pieces of code link to. It's very elegant to say the least. All that you really need to do is some CSS/Bootstrap-y magic to get it looking nice.
+
+I still got some more understanding definitely and I don't think I will ever fully know all of it, but at least I am getting to the point where I can crate something usable. I'll try to finish up the chapter I'm currently on on the EC project in the morning. I think I'm going to relax tonight and play some video games. I recently picked up Papo & Yo and it is one of the most endearing and sad puzzle games I have ever played. I think I already figured out the overarching story/tone based on the little dedication splash right before you start playing. Sad subject but interesting that the developer got out his emotions in such a unique way. I would have just written a shitty poem and cries a little.
