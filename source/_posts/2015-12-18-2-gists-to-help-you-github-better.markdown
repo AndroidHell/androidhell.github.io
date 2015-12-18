@@ -6,4 +6,16 @@ comments: true
 categories: 
 ---
 
+I recently stumbled upon a few code snippets for streamlining my github activities, expecially with Ruby and Jekyll
+
+This one is helpfull for deploying a Jekyll or even a Ruby project to GitHub pages. It adds all files, commits with a timestamp, integrates, generates the blog files, and pushes it up to github:
+
 {% gist f64123058be1f84a3379 %}
+
+This following one is helpfull for a quick automated pus hto github. I like t ocall these courtosy flushes:
+
+{% gist 430fc8db653de052a6cb %}
+
+You can change the commands to whatever you want but as is, run the first by typing "rake blog" and the second by "rake push".
+
+If yo uadd these to the bottom of the Rakefile in your project they should work out of the box.
