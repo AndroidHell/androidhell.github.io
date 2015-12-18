@@ -1,0 +1,21 @@
+---
+layout: post
+title: "blogspot-07.14.15"
+date: 2015-12-18 21:05:02 +0000
+comments: true
+categories: 
+---
+
+Errors. Errors everywhere.
+
+As I was working through the TC stuff last night and finishing up user validation and testing whether users could masquerade as other users, I stumbled headlong into what I will call my 3rd bug hell of this project. The problem with being human is that you are incredibly prone to error. It's in our very nature to screw stuff up. It's that deciding factor that will forever separate us from machines. Sure some machines break down but that's just poor design or manufacturing by a human more than it is wear and tear. (There is still a measurable amount of w&t in machinery, I know but it's not as significant as , say a DOA hard drive from an oversight or mistake made by the person running the hard drive making machines.)
+
+I digress. I was working through the book code to finish the user integration testing and had a handful of errors that were easy to fix. Just had to deal with a rabbit hole of them. Then right as I was finishing the first section of chapter10, I did another 'rake test' and hit this handful of errors that I couldn't even figure out what the messages were meaning. On  Cloud 9, in the terminal, you can click on the file path related to the error and tell it to open the file and it will direct you to the exact line of code. Easy enough to check on stuff. But the problem lies in the fact that even though that line might be what is erroring out, it is doing so from another bit of code that it is pulling from. Say you wrote a method and had a logical error or a typo in it. In this hypothetical, the controller using that method from your 'helper' file would show the error. You can state at that line all day long and decide it is correct as hell, or you can follow the rabbit trail of what you just did to get there. This is where Eclipse and Visual Studio excel at because they have the function of stepping through while debugging. This is probably why I make use either Eclipse or Aptana to develop locally from now on. Or, at the very least, debug in one of those two, but keep Sublime Text as my main dev too so things stay light and crisp.
+
+I worked on fighting those bugs for about 3 hours and finally figured out that I had a line of code that was logging in the user, then going into an 'if/else' and the first thing it was doing was logging in the user again. My errors said nothing about the user being logged in twice or anything closely resembling that message. The worst part about it is that it was a simple oversight on my part. After that I was down to 1 error, which I finally found to be a typo. Cleaned that up and had another typo right after that line. Again, cleaned up and ran another test and everything came out green.
+
+What annoys me is that it isn't as simple as saying "Hey, this is what's wrong." It's following hte trail and actually knowing your code. Make comments that tell you where this thing is coming from or going to. Make a flow chart if need be. A mechanic doesn't just hop under the car without knowing point A and point B of the exhaust system.
+
+Errors now gone, I should be ready to set up password reset stuff, which will be a journey in itself. Then after that, we can start finally working on the main feature of the project; posting user generated content.
+
+At this point, I'm also considering calling the final project an alpha but starting from scratch and rebuilding everything based on my knowledge from both projects. I would really like to implement paperclip and devise into the TC and also redo the entire styling. I might come up with soem doodles later on on what I'm imagining.
