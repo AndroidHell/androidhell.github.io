@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-18T20:44:32+00:00</updated>
+  <updated>2015-12-18T20:49:54+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -20,7 +20,11 @@
     <updated>2015-12-18T20:43:56+00:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better</id>
     
-      <content type="html"><![CDATA[<div><script src='https://gist.github.com/f64123058be1f84a3379.js'></script>
+      <content type="html"><![CDATA[<p>I recently stumbled upon a few code snippets for streamlining my github activities, expecially with Ruby and Jekyll</p>
+
+<p>This one is helpfull for deploying a Jekyll or even a Ruby project to GitHub pages. It adds all files, commits with a timestamp, integrates, generates the blog files, and pushes it up to github:</p>
+
+<div><script src='https://gist.github.com/f64123058be1f84a3379.js'></script>
 <noscript><pre><code>...
 
 # append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process
@@ -37,6 +41,27 @@ end
 
 ...</code></pre></noscript></div>
 
+
+<p>This following one is helpfull for a quick automated pus hto github. I like t ocall these courtosy flushes:</p>
+
+<div><script src='https://gist.github.com/430fc8db653de052a6cb.js'></script>
+<noscript><pre><code>...
+
+# append this to your rakefile to add autopushing
+desc &quot;pushes to git with commit&quot;
+task :push do
+    system &quot;git add .&quot;
+    message = &quot;Site updated at #{Time.now.utc}&quot;
+    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
+    system &quot;git push origin source&quot; # or &quot;git push origin master&quot;
+end
+
+...</code></pre></noscript></div>
+
+
+<p>You can change the commands to whatever you want but as is, run the first by typing &ldquo;rake blog&rdquo; and the second by &ldquo;rake push&rdquo;.</p>
+
+<p>If yo uadd these to the bottom of the Rakefile in your project they should work out of the box.</p>
 ]]></content>
       
   </entry>
