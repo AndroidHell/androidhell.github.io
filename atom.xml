@@ -4,13 +4,36 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-21T15:23:24+00:00</updated>
+  <updated>2015-12-22T15:43:36+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Android Themes Are A Damn Rabbit Hole.]]></title>
+    <link href="http://androidhell.github.io/blog/2015/12/22/android-themes-are-a-damn-rabbit-hole/"/>
+    
+    <updated>2015-12-22T15:31:56+00:00</updated>
+    <id>http://http://androidhell.github.io/blog/2015/12/22/android-themes-are-a-damn-rabbit-hole</id>
+    
+      <content type="html"><![CDATA[<p>So I should be doing other things but instead I&rsquo;ve been working on a new theme for my aging LG G2. I wanted to do a single page layout and then after using KWGT, I ended up messing a bit with KWLP and of course. that is where the rabbit hole started.</p>
+
+<p>I am still stuck on the Flattington theme since I&rsquo;m still stuck on a Beta of PA so if I use any other theme the navbar painting glitches and stays maroon. Instead of feeling stuck with it, I improvised. I built a new theme around the maroon and green and it looks pretty good, imho.</p>
+
+<p>Anyway, I started playing with Kustom and ended up working on a Material Design-inspired animation that has 2 shapes come from top and bottom and a fab button fills out. The animations are sleek abut I&rsquo;m using Apex and can&rsquo;t figure out how to get the transition of the home screen to work with it. I&rsquo;ll continue working on it in my free time and eventually abandon it. I don&rsquo;t even know what to do next with it.</p>
+
+<p>Also, totally off topic but I bought Saint&rsquo;s Row IV last night since it finally got ported. I&rsquo;m having a lot of fun with it and it is very much scratching my car sandbox itch. The game is fun and I&rsquo;m upset that I took so long to check it out. One more port to Linux though. This year was looking bleak for Linux gaming with the depressing release of Steam Machines but this last month has been looking better.</p>
+
+<p>Also, get to do X-Mas tonight which is cool. I get to play with my toys early!</p>
+
+<p>-R</p>
+]]></content>
+      
+  </entry>
   
   <entry>
     
