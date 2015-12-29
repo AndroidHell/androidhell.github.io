@@ -4,13 +4,26 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-23T15:49:48+00:00</updated>
+  <updated>2015-12-29T14:47:07+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Last Week On Earth]]></title>
+    <link href="http://androidhell.github.io/blog/2015/12/29/last-week-on-earth/"/>
+    
+    <updated>2015-12-29T14:36:15+00:00</updated>
+    <id>http://http://androidhell.github.io/blog/2015/12/29/last-week-on-earth</id>
+    
+      <content type="html"><![CDATA[
+]]></content>
+      
+  </entry>
   
   <entry>
     
