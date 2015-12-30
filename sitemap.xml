@@ -65,13 +65,12 @@
     <loc>http://androidhell.github.io/archives/</loc>
   </url>
   <url>
+    <loc>http://androidhell.github.io/settings/</loc>
+  </url>
+  <url>
     <loc>http://androidhell.github.io/blog/categories/</loc>
   </url>
   <url>
     <loc>http://androidhell.github.io/about/</loc>
-  </url>
-  <url>
-    <loc>http://androidhell.github.io/settings/index.html</loc>
-    <lastmod>2015-12-30T15:43:39+00:00</lastmod>
   </url>
 </urlset>
