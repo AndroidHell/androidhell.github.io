@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2015-12-30T19:12:31+00:00</updated>
+  <updated>2015-12-30T19:15:01+00:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -22,7 +22,9 @@
     
       <content type="html"><![CDATA[<p><strong>Notes:</strong></p>
 
-<p>Clicks:</p>
+<hr />
+
+<p><strong>Clicks:</strong></p>
 
 <ul>
 <li>Back: exits app (Handled by OS)</li>
@@ -32,7 +34,7 @@
 </ul>
 
 
-<p>Long-press:</p>
+<p><strong>Long-press:</strong></p>
 
 <ul>
 <li>Up: Mute</li>
@@ -42,7 +44,7 @@
 
 <hr />
 
-<p>Prerequisite:</p>
+<p><strong>Prerequisite:</strong></p>
 
 <ol>
 <li>Linux Distro (for now)</li>
@@ -71,7 +73,7 @@
 
 <hr />
 
-<p><strong>Coode:</strong></p>
+<p><strong>Code:</strong></p>
 
 <p><strong>JSON:</strong></p>
 
