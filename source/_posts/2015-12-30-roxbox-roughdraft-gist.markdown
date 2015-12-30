@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "RoxBox roghdraft - gist"
+title: "RoxBox roughdraft - gist"
 date: 2015-12-30 18:51:38 +0000
 comments: true
 categories: 
