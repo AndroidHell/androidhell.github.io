@@ -8,21 +8,23 @@ categories:
 
 **Notes:**
 
-Clicks:
+========================================================================
+
+**Clicks:**
 
 + Back: exits app (Handled by OS)
 + Up: Volume Up
 + Select: Play/Pause
 + Down: Volume Down
 
-Long-press:
+**Long-press:**
 
 + Up: Mute
 + Down: Skip/Next Track
 
 ========================================================================
 
-Prerequisite:
+**Prerequisite:**
 
 1. Linux Distro (for now)
 2. Python
@@ -45,7 +47,7 @@ Follow this guide: http://mrtux.org/projects/commander/docs/quick-start.html
 
 ========================================================================
 
-**Coode:**
+**Code:**
 
 **JSON:** 
 ```javascript
