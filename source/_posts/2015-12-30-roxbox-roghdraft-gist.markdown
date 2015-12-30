@@ -34,7 +34,7 @@ Follow this guide: http://mrtux.org/projects/commander/docs/quick-start.html
 
 1. Open port: 'sudo ufw allow $serverport'﻿
 2. Install python2, pip, git, etc if not already installed (rewrtie if Win/Mac port)
-3. Install Flaks: 'sudo pip install flask' or 'sudo pip --user install flask' for global
+3. Install Flask: 'sudo pip install flask' or 'sudo pip --user install flask' for global
 4. Download and unzip repo, my JSON will be configured. PW is 'roxbox'
 5. Run server.py with: 'python server.js'
 6. Install watch app. Configure IP to Host machine. set Password to 'roxbox'
