@@ -1,11 +1,69 @@
----
-layout: page
-title: "index"
-date: 2015-12-30 15:52
-comments: true
-sharing: true
-footer: true
----
+	<!doctype html>
+<html lang="en">
+<head>
+	<title>Pebble Commander settings</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<style>
+		.center { text-align: center; }
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1 class="center page-header">Pebble Commander settings</h1>
+	
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="CommanderServer" class="col-xs-3 control-label">Server IP:</label>
+			<div class="col-xs-9"><input type="text" name="CS" id="CommanderServer" class="form-control"></div>
+		</div>
+		<div class="col-xs-offset-3 col-xs-9">
+			<p><strong>Note:</strong> For the server IP, omit the <code>http://</code>. Example: <code>192.168.0.3:5000</code></p>
+		</div>
+		
+		<div class="form-group">
+			<label for="AuthKey" class="col-xs-3 control-label">Auth key:</label>
+			<div class="col-xs-9"><input type="text" name="CP" id="AuthKey" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<label for="outputMode" class="col-xs-3 control-label">Command output:</label>
+			<div class="col-xs-9"><input type="checkbox" value="true" id="outputMode" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<div class="col-xs-offset-3 col-xs-9">
+				<input type="button" class="btn btn-primary" id="submit_button" value="Send to Pebble">
+			</div>
+		</div>
+	</form>
+
+	<div class="panel panel-warning">
+		<div class="panel-body bg-warning">
+			When you have changed the settings, please restart the app on the pebble for them to go into affect.
+		</div>
+	</div>
+</div>
+
+<!-- send settings to pebble -->
+<script>
 
 
-hello world
+function sendData() {
+	var serverIP = document.getElementById("CommanderServer").value;
+	var authKey = document.getElementById("AuthKey").value;
+	var outputMode = document.getElementById("outputMode").checked;
+	var options = {
+		server: serverIP,
+		authkey: authKey,
+		commandoutput: outputMode
+	}
+	document.location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
+}
+
+submitButton = document.getElementById('submit_button');
+submitButton.addEventListener('click', function() {
+	sendData();
+});
+</script>
+</body>
+</html>
