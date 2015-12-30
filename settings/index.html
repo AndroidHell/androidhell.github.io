@@ -1,121 +1,69 @@
-
-<!DOCTYPE HTML>
-<html lang="en-GB">
+	<!doctype html>
+<html lang="en">
 <head>
+	<title>Pebble Commander settings</title>
 	<meta charset="utf-8">
-	<title>index  | Android Hell</title>
-
-	<meta name="author" content="Ralkkai">
-
-<meta name="description" content="hello world"> <meta name="keywords" content="">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href="/atom.xml" rel="alternate" title="Android Hell" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<style>
+		.center { text-align: center; }
+	</style>
 </head>
-
-
-
 <body>
-	<header id="header" class="inner"><h1><a href="/">Android Hell</a></h1>
-<span class="tagline"></span>
-<nav id="main-nav"><ul class="main-nav">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-</ul>
-</nav> 
-<nav id="mobile-nav">
- 	<div class="alignleft menu"> 
- 		<a class="button">Menu</a> 
- 		<div class="container"><ul class="main-nav">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-</ul>
-</div> 
- 	</div> 
- </nav> 
+<div class="container">
+	<h1 class="center page-header">Pebble Commander settings</h1>
+	
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="CommanderServer" class="col-xs-3 control-label">Server IP:</label>
+			<div class="col-xs-9"><input type="text" name="CS" id="CommanderServer" class="form-control"></div>
+		</div>
+		<div class="col-xs-offset-3 col-xs-9">
+			<p><strong>Note:</strong> For the server IP, omit the <code>http://</code>. Example: <code>192.168.0.3:5000</code></p>
+		</div>
+		
+		<div class="form-group">
+			<label for="AuthKey" class="col-xs-3 control-label">Auth key:</label>
+			<div class="col-xs-9"><input type="text" name="CP" id="AuthKey" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<label for="outputMode" class="col-xs-3 control-label">Command output:</label>
+			<div class="col-xs-9"><input type="checkbox" value="true" id="outputMode" class="form-control"></div>
+		</div>
+		<div class="form-group">
+			<div class="col-xs-offset-3 col-xs-9">
+				<input type="button" class="btn btn-primary" id="submit_button" value="Send to Pebble">
+			</div>
+		</div>
+	</form>
 
-
-</header>
-
-	<div id="content" class="inner"><article class="page">
-    <div class="entry-content">hello world</div>
-</article>
-
-
-<section id="comment">
-    <h1 class="title">Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<div class="panel panel-warning">
+		<div class="panel-body bg-warning">
+			When you have changed the settings, please restart the app on the pebble for them to go into affect.
+		</div>
+	</div>
 </div>
-</section>
 
-</div>
-	<footer id="footer" class="inner"><br>
-<br>
-<br>
-<br>
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<strong>
-|<a href="https://github.com/AndroidHell" style="text-align: center;">
-    <i class="fa fa-github"></i> &lt;GitHub&gt; 
-</a>|
-<a href="https://twitter.com/dot_isRalkkai" style="text-align: center;">
-    <i class="fa fa-twitter"></i> &lt;Twitter&gt; 
-</a>|
-<a href="https://plus.google.com/u/0/115362612634816294632/" style="text-align: center;">
-  <i class="fa fa-google-plus"></i> &lt;Google+&gt; 
-</a>|
-<a href="https://www.facebook.com/derrick.shaw.52" style="text-align: center;">
-    <i class="fa fa-facebook"></i> &lt;Facebook&gt; 
-</a>|
-</strong>
-
-<p>&nbsp;</p>
-
-&copy; 2013-2015
-
-    Ralkkai
-
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/hyphenator.js"></script>
-
-
-<script type="text/javascript">
-      var disqus_shortname = 'androidhellgithubio';
-      
-        
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://androidhell.github.io/settings/index.html';
-        var disqus_url = 'http://androidhell.github.io/settings/index.html';
-        var disqus_script = 'embed.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-</body>
+<!-- send settings to pebble -->
 <script>
-  $(document).ready(function() {
-  // Make images center
-  $('p:has(img)').css('text-align', 'center');
-  });
+
+
+function sendData() {
+	var serverIP = document.getElementById("CommanderServer").value;
+	var authKey = document.getElementById("AuthKey").value;
+	var outputMode = document.getElementById("outputMode").checked;
+	var options = {
+		server: serverIP,
+		authkey: authKey,
+		commandoutput: outputMode
+	}
+	document.location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(options));
+}
+
+submitButton = document.getElementById('submit_button');
+submitButton.addEventListener('click', function() {
+	sendData();
+});
 </script>
+</body>
 </html>
