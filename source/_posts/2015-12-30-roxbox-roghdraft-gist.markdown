@@ -6,16 +6,19 @@ comments: true
 categories: 
 ---
 
-/* notes */
+**Notes:**
+
 Clicks:
-Back: exits app (Handled by OS)
-Up: Volume Up
-Select: Play/Pause
-Down: Volume Down
+
++ Back: exits app (Handled by OS)
++ Up: Volume Up
++ Select: Play/Pause
++ Down: Volume Down
 
 Long-press:
-Up: Mute
-Down: Skip/Next Track
+
++ Up: Mute
++ Down: Skip/Next Track
 
 ========================================================================
 
@@ -32,7 +35,7 @@ Prerequisite:
 
 Follow this guide: http://mrtux.org/projects/commander/docs/quick-start.html
 
-1. Open port: 'sudo ufw allow $serverport'﻿
+1. Open port: 'sudo ufw allow $serverport'
 2. Install python2, pip, git, etc if not already installed (rewrtie if Win/Mac port)
 3. Install Flask: 'sudo pip install flask' or 'sudo pip --user install flask' for global
 4. Download and unzip repo, my JSON will be configured. PW is 'roxbox'
@@ -42,9 +45,9 @@ Follow this guide: http://mrtux.org/projects/commander/docs/quick-start.html
 
 ========================================================================
 
-Coode:
+**Coode:**
 
-JSON: 
+**JSON:** 
 ```javascript
 {
 	"__comment__": "See README.md for a set up guide.",
@@ -64,7 +67,7 @@ JSON:
 ```
 ========================================================================
 
-server.py:
+**server.py:**
 ```python
 import subprocess, json
 from flask import Flask,Response,Markup
@@ -184,7 +187,7 @@ if __name__ == "__main__":
 ```
 ========================================================================
 
-app.js
+**app.js:**
 ```javascript
 var UI = require('ui');
 var ajax = require('ajax');
@@ -409,7 +412,7 @@ function runApp() {
 ```
 ========================================================================
 
-index.html
+**index.html:**
 ```html
 <!doctype html>
 <html lang="en">
@@ -481,5 +484,6 @@ submitButton.addEventListener('click', function() {
 </body>
 </html>
 ```
+**Cliffs:**
 
 Everything is a mess. I need to hire a maid. I want to have a working version up by the weekend. We will see how that goes. V2 will have the button configs but v1 will have scrollable commands.
