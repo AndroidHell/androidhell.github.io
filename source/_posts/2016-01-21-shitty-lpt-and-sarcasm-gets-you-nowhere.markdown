@@ -11,7 +11,7 @@ Watch it. Youtube “Mr. Brobot.” It's great.
 
 My friend has started a Jekyll blog much like how this blog runs. I'm using Octopress for mine but it just sits on top of Jekyll so I'm being pampered and he isn't. I donno how to go about doing a new post with just Jekyll but with Octopress it's a simple 
 
-```ruby
+```bash
 rake new_post[“name of post”]
 ```
 
