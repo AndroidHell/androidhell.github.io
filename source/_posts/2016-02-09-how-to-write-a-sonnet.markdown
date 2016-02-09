@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-If I am the only person who write poetry involving rhyme and meter like this, will someone pleae send help? I usually write free verse/free form but am taking a poetry class as an elective and have resorted to writing poetry programmatically. My current assignment is a Englis hsonnet and it currently looks like this"
+If I am the only person who write poetry involving rhyme and meter like this, will someone pleae send help? I usually write free verse/free form but am taking a poetry class as an elective and have resorted to writing poetry programmatically. My current assignment is a English sonnet and it currently looks like this"
 
 >Derrick Shaw  
 >ENGL 3306.01  
