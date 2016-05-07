@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-05-07T17:39:57-05:00</updated>
+  <updated>2016-05-07T17:46:14-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -20,7 +20,16 @@
     <updated>2016-05-07T17:38:03-05:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/05/07/quick-diddy</id>
     
-      <content type="html"><![CDATA[<p>test</p>
+      <content type="html"><![CDATA[<p>So I decided to move this blog to my local computer instead of hosting the dev version on cloud 9. A version will stll be there but it will probably not get updated unless I have a reason to do otherwise. Since I&rsquo;m just pushing and not actually doing any sort of QC, this shouldn&rsquo;t be an issue and I can set up another repo on my laptop.</p>
+
+<p>I might consider adding an new method in my rakefile for pulling all the things based on my &ldquo;rake push&rdquo; one.</p>
+
+<p>Other then that, I had wanted to write a blog post about how I feel that the MMO is dying after trying to play Ryzom after it got it&rsquo;s debut on Steam after being around for 12 years. I played it, felt very &ldquo;meh&rdquo; about it and will probably play Cities: Skylines for the rest of the night. It&rsquo;s holding my attention more anyway. At least, when I&rsquo;m not chasing down bugs and glitches from mods.</p>
+
+<p>In any case, this is  gonna be shorter anyway since it&rsquo;s more intended to be a teser post to see if I have everything plugged in properly.</p>
+
+<p>Peace,
+-D</p>
 ]]></content>
       
   </entry>
