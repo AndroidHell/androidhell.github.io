@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-05-04T14:13:03+00:00</updated>
+  <updated>2016-05-07T17:39:57-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -14,10 +14,23 @@
   
   <entry>
     
+    <title type="html"><![CDATA[Quick Diddy]]></title>
+    <link href="http://androidhell.github.io/blog/2016/05/07/quick-diddy/"/>
+    
+    <updated>2016-05-07T17:38:03-05:00</updated>
+    <id>http://http://androidhell.github.io/blog/2016/05/07/quick-diddy</id>
+    
+      <content type="html"><![CDATA[<p>test</p>
+]]></content>
+      
+  </entry>
+  
+  <entry>
+    
     <title type="html"><![CDATA[It's been a long time]]></title>
     <link href="http://androidhell.github.io/blog/2016/05/04/its-been-a-long-time/"/>
     
-    <updated>2016-05-04T13:28:28+00:00</updated>
+    <updated>2016-05-04T08:28:28-05:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/05/04/its-been-a-long-time</id>
     
       <content type="html"><![CDATA[<p>Hello darkness, my old friend. Or rather oi to those who are still there and able to read something I write without being overly offended by crass observations of the politcal machine.</p>
@@ -60,7 +73,7 @@
     <title type="html"><![CDATA[Socks and Socialism]]></title>
     <link href="http://androidhell.github.io/blog/2016/02/22/socks-and-socialism/"/>
     
-    <updated>2016-02-22T16:47:35+00:00</updated>
+    <updated>2016-02-22T10:47:35-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/02/22/socks-and-socialism</id>
     
       <content type="html"><![CDATA[<p>I sometimes think to hard on a subject so when I get around to wanting to write it, I&rsquo;ve at least mentally moved on. I&rsquo;ve never liked this about myself, because at least from a philosophical standpoint, my ideas help define me. They help me progress as a human and going back and looking at how I was at a given time allows me to understand myself better.</p>
@@ -91,7 +104,7 @@
     <title type="html"><![CDATA[How to write a sonnet]]></title>
     <link href="http://androidhell.github.io/blog/2016/02/09/how-to-write-a-sonnet/"/>
     
-    <updated>2016-02-09T14:26:32+00:00</updated>
+    <updated>2016-02-09T08:26:32-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/02/09/how-to-write-a-sonnet</id>
     
       <content type="html"><![CDATA[<p>If I am the only person who write poetry involving rhyme and meter like this, will someone pleae send help? I usually write free verse/free form but am taking a poetry class as an elective and have resorted to writing poetry programmatically. My current assignment is a English sonnet and it currently looks like this"</p>
@@ -135,7 +148,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[Shitty LPT and sarcasm gets you nowhere.]]></title>
     <link href="http://androidhell.github.io/blog/2016/01/21/shitty-lpt-and-sarcasm-gets-you-nowhere/"/>
     
-    <updated>2016-01-21T13:13:38+00:00</updated>
+    <updated>2016-01-21T07:13:38-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/01/21/shitty-lpt-and-sarcasm-gets-you-nowhere</id>
     
       <content type="html"><![CDATA[<p>Just got done watching a parody of Mr. Robot, where our favorite antagonist “hacks” his friend via SMS to ask for their Netflix credentials. Then as he is binge watching Making a Murder, he Hacked into Facebook to see what everyone is doing. The parody was really well done and my favorite part was when he hacked into the ma n' pa pizza site and found a co-u-pon bug in the system where he exploited it to receive discounted food.</p>
@@ -175,7 +188,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[When We Walk]]></title>
     <link href="http://androidhell.github.io/blog/2016/01/10/when-we-walk/"/>
     
-    <updated>2016-01-10T20:47:07+00:00</updated>
+    <updated>2016-01-10T14:47:07-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/01/10/when-we-walk</id>
     
       <content type="html"><![CDATA[<p>I want to write this for my other blog as I think the idea of it has switched gears, and maybe I will do that tomorrow but for now. Let&rsquo;s toss some ideas around. Tomorrow I am meeting with Mark Love to discuss the sock drive. He wants to know what brought me to want to do this and honestly, even though the concept behind it is simple, me coming this far is a bit more complex. I can just tell hims that I saw a statistic on a social sharing site that mentioned how of all the clothing items donated across the country, socks are least donated and yet, in most demand.</p>
@@ -212,7 +225,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[New year, new me, new you?]]></title>
     <link href="http://androidhell.github.io/blog/2016/01/08/new-year/"/>
     
-    <updated>2016-01-08T15:45:13+00:00</updated>
+    <updated>2016-01-08T09:45:13-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/01/08/new-year</id>
     
       <content type="html"><![CDATA[<p>So it&rsquo;s now 2016. That means a lot of stuff. Mainly, we survived the year, 2015. The year of the crybabies, hypersensetives, annoying agenda freaks, and a whole slew of wtfs. I try to keep in my mind that the world is less violent per statistics. We just have better coverage of things going on around hte globe. News travels faster as technology speeds up. News version of Moore&rsquo;s law?</p>
@@ -243,7 +256,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[Last Day on Earth]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/31/last-day-on-earth/"/>
     
-    <updated>2015-12-31T17:40:29+00:00</updated>
+    <updated>2015-12-31T11:40:29-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/31/last-day-on-earth</id>
     
       <content type="html"><![CDATA[<p>So here we go. Today is the last day of 2015 and my last day at FP. Aside from not doing much work-type work over the last couple of months I have actually kept myself busy learning new things and honing some skills. One example of what I have learned is in this very blog. It&rsquo;s OctoPress, built off of Jekyll, and using Ruby on Rails. I host this site through Github and it&rsquo;s all pretty swanky. Maybe someday I&rsquo;ll post what the site looks like from the backend to put it in to perspective.</p>
@@ -282,7 +295,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[RoxBox roughdraft - gist]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/30/roxbox-roughdraft-gist/"/>
     
-    <updated>2015-12-30T18:51:38+00:00</updated>
+    <updated>2015-12-30T12:51:38-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/30/roxbox-roughdraft-gist</id>
     
       <content type="html"><![CDATA[<p><strong>Notes:</strong></p>
@@ -1216,7 +1229,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[Last Week On Earth]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/29/last-week-on-earth/"/>
     
-    <updated>2015-12-29T14:36:15+00:00</updated>
+    <updated>2015-12-29T08:36:15-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/29/last-week-on-earth</id>
     
       <content type="html"><![CDATA[<p>So the title is a bit hyperbolic but it still sounds cool. I took yesterday off because I was sick (cough, cough) and stayed in my pjs, playing video games and watching movies with the wifey. It was nice but laundry still isn&rsquo;t done yet. Bleh.</p>
@@ -1243,7 +1256,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[Day After]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/23/day-after/"/>
     
-    <updated>2015-12-23T15:29:44+00:00</updated>
+    <updated>2015-12-23T09:29:44-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/23/day-after</id>
     
       <content type="html"><![CDATA[<p>o the Fox clan did Christmas early this year due to family being in and out of town at various times. We broke tradition of mountains of food and ordered Jason&rsquo;s Deli instead. I got a Reuben and asked for a lighter portion so they only gave me 3 lbs of corned beef. That was nice of them.</p>
@@ -1270,7 +1283,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[Android Themes Are A Damn Rabbit Hole.]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/22/android-themes-are-a-damn-rabbit-hole/"/>
     
-    <updated>2015-12-22T15:31:56+00:00</updated>
+    <updated>2015-12-22T09:31:56-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/22/android-themes-are-a-damn-rabbit-hole</id>
     
       <content type="html"><![CDATA[<p>So I should be doing other things but instead I&rsquo;ve been working on a new theme for my aging LG G2. I wanted to do a single page layout and then after using KWGT, I ended up messing a bit with KWLP and of course. that is where the rabbit hole started.</p>
@@ -1293,7 +1306,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[Tis the season]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/21/tis-the-season/"/>
     
-    <updated>2015-12-21T15:14:32+00:00</updated>
+    <updated>2015-12-21T09:14:32-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/21/tis-the-season</id>
     
       <content type="html"><![CDATA[<p>The weekend is over and it was fairly busy. I spent Friday with the wife putting the tree up. Did the gift shopping on Saturday and got most stuff wrapped on yesterday. Went to church and talked to Alan and Mark L. about doing the sock drive and as it stands, we are looking at doing it on a dinner night on Feb 13. Announcements will be put in the bulletin.</p>
@@ -1316,7 +1329,7 @@ vehemence - peace</p></blockquote>
     <title type="html"><![CDATA[The Magic Panel - blogspot]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/the-magic-panel-blogspot/"/>
     
-    <updated>2015-12-18T21:06:18+00:00</updated>
+    <updated>2015-12-18T15:06:18-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/the-magic-panel-blogspot</id>
     
       <content type="html"><![CDATA[<p>The Magic Panel</p>
@@ -1504,7 +1517,7 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
     <title type="html"><![CDATA[blogspot-07.14.15]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-14-dot-15/"/>
     
-    <updated>2015-12-18T21:05:02+00:00</updated>
+    <updated>2015-12-18T15:05:02-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-14-dot-15</id>
     
       <content type="html"><![CDATA[<p>Errors. Errors everywhere.</p>
@@ -1529,7 +1542,7 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
     <title type="html"><![CDATA[blogspot-07.11.15]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-11-dot-15/"/>
     
-    <updated>2015-12-18T21:03:17+00:00</updated>
+    <updated>2015-12-18T15:03:17-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-11-dot-15</id>
     
       <content type="html"><![CDATA[<p>I&rsquo;m skipping workout to focus on code this morning. I&rsquo;m working on EC for the time being and wanted to write a quick followup to the whole devise gem praise I gave yesterday. The gem is great for automating all your authentication needs but according to the author of the guide on Udemy, it isn&rsquo;t easy to re-style the alert messages to reflect those of actual Bootstrap. He wrote a weird bit of voodoo magic that accomplishes that.</p>
@@ -1612,7 +1625,7 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
     <title type="html"><![CDATA[blogspot-07.10.15]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-10-dot-15/"/>
     
-    <updated>2015-12-18T21:00:42+00:00</updated>
+    <updated>2015-12-18T15:00:42-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-10-dot-15</id>
     
       <content type="html"><![CDATA[<p>I am currently on chapter 10 of the Hartl book with the Twitter clone and about halfway through the Etsy clone. I think for the time being I will call them TC and EC, respectively. I learned a very interesting thing about Rails sine I am working on the 2 projects in tandem. There is an easy way and a hard way in Rails.</p>
@@ -1640,7 +1653,7 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
     <title type="html"><![CDATA[blogspot-07.05.15]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-05-dot-15/"/>
     
-    <updated>2015-12-18T20:57:21+00:00</updated>
+    <updated>2015-12-18T14:57:21-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-05-dot-15</id>
     
       <content type="html"><![CDATA[<p>Intro first? My name is Derrick Shaw. I am 32 years old and I don&rsquo;t know what I&rsquo;m doing. Or rather, this is intended to be an ongoing documenting of thoughts as I work on my webapp project. This doc is sort of my &lsquo;hello world&rsquo; opposite the machine code side of things.</p>
@@ -1671,7 +1684,7 @@ And here we are. So when you have barely an understanding of programming and ver
     <title type="html"><![CDATA[2 gists to help you github better.]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better/"/>
     
-    <updated>2015-12-18T20:43:56+00:00</updated>
+    <updated>2015-12-18T14:43:56-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better</id>
     
       <content type="html"><![CDATA[<p>I recently stumbled upon a few code snippets for streamlining my github activities, expecially with Ruby and Jekyll</p>
@@ -1777,7 +1790,7 @@ end
     <title type="html"><![CDATA[It's a Friday]]></title>
     <link href="http://androidhell.github.io/blog/2015/12/18/its-a-friday/"/>
     
-    <updated>2015-12-18T16:33:39+00:00</updated>
+    <updated>2015-12-18T10:33:39-06:00</updated>
     <id>http://http://androidhell.github.io/blog/2015/12/18/its-a-friday</id>
     
       <content type="html"><![CDATA[<p>So it&rsquo;s Friday again. Made it through another week. One of my last at FP actually. Fridays at Financial Payments, over the duration of my internship have usually been fairly laid back. We do a breakfast thing and lately Kin has been promoting watching TedTalk videos or similar things to create a discussion over foodstuff. It&rsquo;s been enjoyable to engage in the talks since it&rsquo;s about stuff that a lot of people I know either don&rsquo;t understand or just mark it up as a &ldquo;never gonna happen&rdquo; type thing.</p>
@@ -1789,54 +1802,6 @@ end
 <p>Sunday we need to go grocery shopping and wrap gifts. I&rsquo;m hoping to talk to Alan at church about a sock drive as well. I&rsquo;ve been putting tha toff for 2 weeks now and it&rsquo;s pretty much winter at this point.</p>
 
 <p>Other than that, I need to stay off of social media until I see SW. People ruin everything.</p>
-
-<p>-Ralkkai</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Let's do this thing!]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/17/lets-do-this-thing/"/>
-    
-    <updated>2015-12-17T15:01:40+00:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/17/lets-do-this-thing</id>
-    
-      <content type="html"><![CDATA[<p>So first thing is first. I need to finish the about page for this thing.</p>
-
-<p>On to business though. I think I can see myself using this to get my thoughts out. I really do like the hacky feeling of using cli and an ide in order to create blog posts instead of a wysiwyg.</p>
-
-<p>I donno if I can post on a daily basis but it would be nice to use this as a sort of personal journal to see how things progress.</p>
-
-<p>I can leave my America: The Shit Show blog as is instead of converting it over to this format. That space will be better suited for just typing things out, where this will be better suited for techy stuff.</p>
-
-<p>Which is what I suppose it was initially meant for.</p>
-
-<p>Before I do the tech stuff tho&hellip;</p>
-
-<p>News Years Resolution idea:</p>
-
-<ul>
-<li>Be nicer to my enemies</li>
-<li>drink less</li>
-<li>focus on a single group of languages and actually focus on code logic (I&rsquo;ve been all over the place this year. [See: Pounds to Babies converter written in PHP])</li>
-<li>Don&rsquo;t sweat the small stuff</li>
-<li>Quit being politically loud on social media (change out the Hitler Trump Twitter pic)</li>
-<li>155 lbs goal</li>
-<li>take more photos. Hopefully the photography class will light that fire</li>
-<li>Get a damn job. Anyone need websites made?</li>
-<li>think of more things</li>
-</ul>
-
-
-<p>The list will be altered before the year is out. My main focus on the next year is to just avoid dickish people and to not be, myself, dickish. I&rsquo;m going to help out more too.</p>
-
-<p>It&rsquo;s looking like the web design business is not picking up and isn&rsquo;t at all where I was hoping it would be at this point. I&rsquo;m waiting out these next few weeks at FP and then I donno what I&rsquo;m going to do after that.</p>
-
-<p>I might sleep until school starts again. Maybe play some games. I&rsquo;m in the middle of Deponia and it makes me feel dumb. I still haven’t done my annual Half-Life-athon or Mass Effect run.</p>
-
-<p>EDIT: I also  need to figure out how to make this octopress thing my own since it is showing that I have done 860+ commits but those are from other people. I think I need to do a manual install instead of downloading it from git through command line.</p>
 
 <p>-Ralkkai</p>
 ]]></content>
