@@ -426,3 +426,8 @@ task :push do
     system "git commit -am \"#{message}\""
     system "git push origin source" # or "git push origin master"
 end
+
+desc "pulls latest"
+task :pull do
+    system "git pull origin source" # or "git pull origin master"
+end
