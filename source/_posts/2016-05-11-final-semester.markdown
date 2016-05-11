@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
 title: "Final Semester"
-date: 2016-05-11 14:50:43 -0500
+date: 2016-05-11 15:07:32 -0500
 comments: true
 categories: 
 ---
