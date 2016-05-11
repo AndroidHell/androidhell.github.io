@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-05-11T15:09:50-05:00</updated>
+  <updated>2016-05-11T15:10:55-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -21,25 +21,6 @@
     <id>http://http://androidhell.github.io/blog/2016/05/11/test</id>
     
       <content type="html"><![CDATA[<p>stuff</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Final Semester]]></title>
-    <link href="http://androidhell.github.io/blog/2016/05/11/final-semester/"/>
-    
-    <updated>2016-05-11T15:07:32-05:00</updated>
-    <id>http://http://androidhell.github.io/blog/2016/05/11/final-semester</id>
-    
-      <content type="html"><![CDATA[<p>What happens now? I just finished wrapping up my last CIDM class and everything else is in order. I have one more class to take over the summer but I do get to walk on Saturday. So there is that. I&rsquo;m also finishing my entire college career with A&rsquo;s and B&rsquo;s because I tried.</p>
-
-<p>So what now? I have a job lined up with the USDA but I also got a phone call from a staffing agency that needed a web developer position filled. After some sleuthing, it turns out that it was not a scam but there was just some oppsies with emails. That position offers twice what USDA is offering in the way of pay. Both jobs are temporary, but the web dev one is temp-to-hire. If they offer it to me, I kind of gotta take it but then I&rsquo;d be letting down the USDA folks who sent me an unofficial offer email the other day.</p>
-
-<p>Then there was the web dev job for CSI that fell through but they still have a position opened that Babb mentioned today so I sent him an email that said toss my name in and let&rsquo;s see what happens.</p>
-
-<p>I&rsquo;ll fill you in once I know what the hell is going on. I&rsquo;m gonna cut this short since I wanted to get started on re-learning PHP. I was gonna wait until next week but if not now, then never. Right?</p>
 ]]></content>
       
   </entry>
@@ -1716,6 +1697,112 @@ And here we are. So when you have barely an understanding of programming and ver
 <p>In the future, this may very well become my developmental cliffnotes, but for now, let&rsquo;s just mark this up as a personal journal as I struggle though the world of social media development.</p>
 
 <p>I will link to the site once Alpha hits. I will also come up with a version numbering and naming scheme before then. Alphas will probably be numbers 0.0.x and Betas will be 0.x.x but I haven&rsquo;t decided on a name scheme. For now it is just going by Project Kwikr, which is very obviously a mutation of the word &lsquo;quicker&rsquo;.</p>
+]]></content>
+      
+  </entry>
+  
+  <entry>
+    
+    <title type="html"><![CDATA[2 gists to help you github better.]]></title>
+    <link href="http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better/"/>
+    
+    <updated>2015-12-18T14:43:56-06:00</updated>
+    <id>http://http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better</id>
+    
+      <content type="html"><![CDATA[<p>I recently stumbled upon a few code snippets for streamlining my github activities, expecially with Ruby and Jekyll</p>
+
+<p>This one is helpfull for deploying a Jekyll or even a Ruby project to GitHub pages. It adds all files, commits with a timestamp, integrates, generates the blog files, and pushes it up to github:</p>
+
+<div><script src='https://gist.github.com/f64123058be1f84a3379.js'></script>
+<noscript><pre><code>...
+
+# append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process
+desc &quot;Generate website, add, commit and deploy&quot;
+task :blog do
+    system &quot;git add .&quot;
+    message = &quot;Site updated at #{Time.now.utc}&quot;
+    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
+    Rake::Task[:integrate].execute
+    Rake::Task[:generate].execute
+    system &quot;git push origin source&quot;
+    Rake::Task[:deploy].execute
+end
+
+...</code></pre></noscript></div>
+
+
+<p>This following one is helpfull for a quick automated pus hto github. I like t ocall these courtosy flushes:</p>
+
+<div><script src='https://gist.github.com/430fc8db653de052a6cb.js'></script>
+<noscript><pre><code>...
+
+# append this to your rakefile to add autopushing
+desc &quot;pushes to git with commit&quot;
+task :push do
+    system &quot;git add .&quot;
+    message = &quot;Site updated at #{Time.now.utc}&quot;
+    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
+    system &quot;git push origin source&quot; # or &quot;git push origin master&quot;
+end
+
+...</code></pre></noscript></div>
+
+
+<p>You can change the commands to whatever you want but as is, run the first by typing &ldquo;rake blog&rdquo; and the second by &ldquo;rake push&rdquo;.</p>
+
+<p>If you add these to the bottom of the Rakefile in your project they should work out of the box.</p>
+
+<p>-R</p>
+
+<p>The above linked to my github gists and the below is inline markdown. I really jsut did htis to learn how for future reasons.</p>
+
+<p>Alternate code listed:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process</span>
+</span><span class='line'><span class="n">desc</span> <span class="s2">&quot;Generate website, add, commit and deploy&quot;</span>
+</span><span class='line'><span class="n">task</span> <span class="ss">:blog</span> <span class="k">do</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
+</span><span class='line'>    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -am </span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">message</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="ss">:integrate</span><span class="o">].</span><span class="n">execute</span>
+</span><span class='line'>    <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="ss">:generate</span><span class="o">].</span><span class="n">execute</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git push origin source&quot;</span>
+</span><span class='line'>    <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="ss">:deploy</span><span class="o">].</span><span class="n">execute</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># append this to your rakefile to add autopushing</span>
+</span><span class='line'><span class="n">desc</span> <span class="s2">&quot;pushes to git with commit&quot;</span>
+</span><span class='line'><span class="n">task</span> <span class="ss">:push</span> <span class="k">do</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
+</span><span class='line'>    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -am </span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">message</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git push origin source&quot;</span> <span class="c1"># or &quot;git push origin master&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
 ]]></content>
       
   </entry>
