@@ -4,13 +4,54 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-05-11T15:16:43-05:00</updated>
+  <updated>2016-07-10T15:05:15-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[If I had the time]]></title>
+    <link href="http://androidhell.github.io/blog/2016/07/10/if-i-had-the-time/"/>
+    
+    <updated>2016-07-10T14:37:17-05:00</updated>
+    <id>http://http://androidhell.github.io/blog/2016/07/10/if-i-had-the-time</id>
+    
+      <content type="html"><![CDATA[<p>I&rsquo;m grumpy today and I really don&rsquo;t know why. Maybe letting this blog go to the wayside hasn&rsquo;t helped me handle my own thoughts as of late. Maybe I&rsquo;m just grumpy because that damn Pokemon Go app keeps shitting the bed for me. I just got back from walking all the way to campus and as if the app knew it, it just stopped working. I rebooted my phone and got a exclamation mark next to my phone battery and my screen wouldn&rsquo;t auto-adjust like it should and I&rsquo;ve been grumpy since before that and that just set me off and I went into Tamtrum Derrick Mode.</p>
+
+<p>Maybe that was it. Can I blame it on the game? I love the idea of an ARG actually getting popular so I&rsquo;m very intrigued by it but all the same, it&rsquo;s a Pokemon game. I&rsquo;m an old man and I&rsquo;m playing a silly Pokemon game. Maybe it&rsquo;s something different.</p>
+
+<p>At this point I would usually segway into a list of things I&rsquo;d like to cover and write some sort of hyper-lengthy wall of text about why everything else is wrong and I&rsquo;m right but instead I think I&rsquo;ll try something new.</p>
+
+<p>A confession of sorts.</p>
+
+<p>I have been trolling the ever-loving shit out of a family-friend&rsquo;s Facebook buddies. I&rsquo;ve been engaging in some ruthless back and forth political banter and it&rsquo;s been a blast. I originally wanted to engage in actual worthwhile discussion but soon realized that they would always resort to childish name calling and decided to have fun with it ever since. The wife hates it. And I don&rsquo;t even know why I keep at it. I just like watching them squirm and fall into the Decartes-esque sort of pseudo-logical circular reasoning. I find it fascinating that I can predict their reactions based on what I say. It&rsquo;s the perfect example of cronyism. Or at least a sample of the cronyism that the country is controlled by.</p>
+
+<p>You couple that with my recent binge-listening to Dan Carlin&rsquo;s Common Sense and I&rsquo;m starting to see how the whole political system works. The short explanation is “It doesn&rsquo;t.” And yeah, teenage angsty rebel Derrick knew that but for some reason at 30 or so I wanted to REALLY know that.</p>
+
+<p>The fun factor is that in the process, I&rsquo;ve learned who I am politically. And I&rsquo;ve alienated almost my entire family because of it. That post will be for another day but for now let&rsquo;s focus on what is next.</p>
+
+<p>It was this morning during the “#24 hour Facebook fallout rule of law” when said family-friend and cronies where back-and-forthing about the Dallas police shooting and how the police finally used a drone to subdue him. I&rsquo;ve so far succeeded in not giving my 2 cents. But it&rsquo;s easier this time. And this is why.</p>
+
+<p>I am a futurist. I absolutely adore the possibilities of what the future will have, and will look like. I hunger for that sort of Utopian version where we have reached post-scarcity and monetary gratification is no longer needed. We are a long way off. Automation is going to get there and it will pave the way but we need to be careful about it. Automation won&rsquo;t exist as long as capitalism does. Well, it can&rsquo;t. If it doesn&rsquo;t then we see 1% get hyper-rich and 99% get hyper-poor. Imagine 280 Donald Trumps running the House and Senate. It would be like that only more narcissistic.</p>
+
+<p>Robotics is going to disrupt the country and the world. We can joke all we want about McDonald&rsquo;s replacing the $15-per-hourers with kiosks all we want but if we aren&rsquo;t going to prepare for the fallout that is unemployment that will surely follow we are digging an economic grave. Almost every job out there is as easily replaceable as the McDonald&rsquo;s cashier. If you don&rsquo;t realize that then you are an idiot.</p>
+
+<p>Wat does this have to do with drones killing people? Aside from the fact that they have been doing that in the middle east for a few years now, this means that everything involving law enforcement changes. Those out they waving their gun rights in everyone&rsquo;s faces claiming that they should be able to shoot whomever they want if they trespass or look at them sideways just got a reality check. The 2nd amendment just got a little more fun. You have the right to bear arms but your arms will be substantially less affective against a remote control machine.</p>
+
+<p>If Asimov needed a chapter zero to his laws of robotics, this is it. Everything changes now. You can say it was unfair. You can say the police should have subdued him with bodily force and stuffed him in a jail cell until it was time for lethal injection. You can say all you want, but you have to understand that law enforcement will never be the same. This is a beginning and complaining about your guns and my rights and showing pictures of your guns leaning up against the wall not killing anybody is not what we need to be doing.</p>
+
+<p>I&rsquo;m sure this will spur new laws but considering how Congress is twiddling their thumbs about encryption, this is gonna take a while. I think the best way to speed things up is if some black hat hacker came along and hijacked one of those drones. Kill two(or three) birds with one stone.</p>
+
+<p>Maybe down the road, I&rsquo;ll cover the whole alienating bit and encryption as if that hasn&rsquo;t been picked apart clean already.</p>
+
+<p>-DS</p>
+]]></content>
+      
+  </entry>
   
   <entry>
     
@@ -1703,112 +1744,6 @@ And here we are. So when you have barely an understanding of programming and ver
 <p>In the future, this may very well become my developmental cliffnotes, but for now, let&rsquo;s just mark this up as a personal journal as I struggle though the world of social media development.</p>
 
 <p>I will link to the site once Alpha hits. I will also come up with a version numbering and naming scheme before then. Alphas will probably be numbers 0.0.x and Betas will be 0.x.x but I haven&rsquo;t decided on a name scheme. For now it is just going by Project Kwikr, which is very obviously a mutation of the word &lsquo;quicker&rsquo;.</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[2 gists to help you github better.]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better/"/>
-    
-    <updated>2015-12-18T14:43:56-06:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/18/2-gists-to-help-you-github-better</id>
-    
-      <content type="html"><![CDATA[<p>I recently stumbled upon a few code snippets for streamlining my github activities, expecially with Ruby and Jekyll</p>
-
-<p>This one is helpfull for deploying a Jekyll or even a Ruby project to GitHub pages. It adds all files, commits with a timestamp, integrates, generates the blog files, and pushes it up to github:</p>
-
-<div><script src='https://gist.github.com/f64123058be1f84a3379.js'></script>
-<noscript><pre><code>...
-
-# append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process
-desc &quot;Generate website, add, commit and deploy&quot;
-task :blog do
-    system &quot;git add .&quot;
-    message = &quot;Site updated at #{Time.now.utc}&quot;
-    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
-    Rake::Task[:integrate].execute
-    Rake::Task[:generate].execute
-    system &quot;git push origin source&quot;
-    Rake::Task[:deploy].execute
-end
-
-...</code></pre></noscript></div>
-
-
-<p>This following one is helpfull for a quick automated pus hto github. I like t ocall these courtosy flushes:</p>
-
-<div><script src='https://gist.github.com/430fc8db653de052a6cb.js'></script>
-<noscript><pre><code>...
-
-# append this to your rakefile to add autopushing
-desc &quot;pushes to git with commit&quot;
-task :push do
-    system &quot;git add .&quot;
-    message = &quot;Site updated at #{Time.now.utc}&quot;
-    system &quot;git commit -am \&quot;#{message}\&quot;&quot;
-    system &quot;git push origin source&quot; # or &quot;git push origin master&quot;
-end
-
-...</code></pre></noscript></div>
-
-
-<p>You can change the commands to whatever you want but as is, run the first by typing &ldquo;rake blog&rdquo; and the second by &ldquo;rake push&rdquo;.</p>
-
-<p>If you add these to the bottom of the Rakefile in your project they should work out of the box.</p>
-
-<p>-R</p>
-
-<p>The above linked to my github gists and the below is inline markdown. I really jsut did htis to learn how for future reasons.</p>
-
-<p>Alternate code listed:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># append this to your rakefile and simply type &quot;rake blog&quot; for full deployment process</span>
-</span><span class='line'><span class="n">desc</span> <span class="s2">&quot;Generate website, add, commit and deploy&quot;</span>
-</span><span class='line'><span class="n">task</span> <span class="ss">:blog</span> <span class="k">do</span>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
-</span><span class='line'>    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -am </span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">message</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
-</span><span class='line'>    <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="ss">:integrate</span><span class="o">].</span><span class="n">execute</span>
-</span><span class='line'>    <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="ss">:generate</span><span class="o">].</span><span class="n">execute</span>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git push origin source&quot;</span>
-</span><span class='line'>    <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="ss">:deploy</span><span class="o">].</span><span class="n">execute</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>and</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># append this to your rakefile to add autopushing</span>
-</span><span class='line'><span class="n">desc</span> <span class="s2">&quot;pushes to git with commit&quot;</span>
-</span><span class='line'><span class="n">task</span> <span class="ss">:push</span> <span class="k">do</span>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
-</span><span class='line'>    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git commit -am </span><span class="se">\&quot;</span><span class="si">#{</span><span class="n">message</span><span class="si">}</span><span class="se">\&quot;</span><span class="s2">&quot;</span>
-</span><span class='line'>    <span class="nb">system</span> <span class="s2">&quot;git push origin source&quot;</span> <span class="c1"># or &quot;git push origin master&quot;</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
 ]]></content>
       
   </entry>
