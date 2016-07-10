@@ -20,7 +20,7 @@ You couple that with my recent binge-listening to Dan Carlin's Common Sense and 
 
 The fun factor is that in the process, I've learned who I am politically. And I've alienated almost my entire family because of it. That post will be for another day but for now let's focus on what is next.
 
-It was this morning during the “#24 hour Facebook fallout rule of law” when said family-friend and cronies where back-and-forthing about the Dallas police shooting and how the police finally used a drone to subdue him. I've so far succeeded in not giving my 2 cents. But it's easier this time. And this is why.
+It was this morning during the “24 Hour Facebook Fallout Rule” when said family-friend and cronies where back-and-forthing about the Dallas police shooting and how the police finally used a drone to subdue him. I've so far succeeded in not giving my 2 cents. But it's easier this time. And this is why.
 
 I am a futurist. I absolutely adore the possibilities of what the future will have, and will look like. I hunger for that sort of Utopian version where we have reached post-scarcity and monetary gratification is no longer needed. We are a long way off. Automation is going to get there and it will pave the way but we need to be careful about it. Automation won't exist as long as capitalism does. Well, it can't. If it doesn't then we see 1% get hyper-rich and 99% get hyper-poor. Imagine 280 Donald Trumps running the House and Senate. It would be like that only more narcissistic. 
 
