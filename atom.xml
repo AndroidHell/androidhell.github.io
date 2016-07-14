@@ -4,13 +4,40 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-07-13T20:11:05-05:00</updated>
+  <updated>2016-07-13T20:34:06-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Starting with the Tooth Picks]]></title>
+    <link href="http://androidhell.github.io/blog/2016/07/13/starting-with-the-tooth-picks/"/>
+    
+    <updated>2016-07-13T20:16:30-05:00</updated>
+    <id>http://http://androidhell.github.io/blog/2016/07/13/starting-with-the-tooth-picks</id>
+    
+      <content type="html"><![CDATA[<p>I may have eluded to this a few posts ago but I had a bit of a tweet-fest a few weeks ago concerning the idea of why we should stop learning new things. I did my stint  at college and I should just stop reading new things or tinkering with a new programming language? Why? Just today at work I spent time playing with yet another library for Python that adds another new facet to a always impressive arsenal of tools that is Python. Python is simple as a language but it&rsquo;s estensability is almsot unmatched save for maybe Javascript, and I blame th ejipsters for that. Angular? Do we really need another stack guys?</p>
+
+<p>Spent today playing with a GUI toolkit for Python called Tkinter. It&rsquo;s bascailly a whole library full of al the things you need to make the elements you see on a standards desktop OS window. Window decorations, buttons, text fields, sliders, radios, etc. It&rsquo;s like QT&rsquo;s distant, clunkier cousin. I say this only because QT has a IDE and Tkinter doesn&rsquo;t.</p>
+
+<p>I spent today breaking windows and sifting through debug garbage while trying to get functioanl buttons. I&rsquo;m also trying(READ: failing) to get a nested terminal CLI to spit out terminal data as if you were runnign everythign from CLI to begin with. It&rsquo;s not going well.</p>
+
+<p>I also finished the podcast of Sam Harris' and Danial Dennett&rsquo;s barroom debate. I was happy that they finished it as the gentlemen I&rsquo;d like to think they are even though they deisagreed with each other the entire time. It&rsquo;s wierd readign two of the 4 horsemen, as they are referred to as, discuss the same thing, which they agree on, and yet, all the while disagreeing with each other. The discussion was intence and at times over my head.</p>
+
+<p>After that I started a series from the same podcast wher Harris is dissecting his most recent book since a lot of people apparently wanted to lynch him over it. I&rsquo;m halfway through the first part but from what I gather, he&rsquo;s trying to cover his ass but explaining that when he was discussing Muslims, he was intending to mena the radical militant ones and not ALL MUSLIMS. He explained that he thoght his listeners understood that he was referencing Islamists and not Religion of Peace Muslims. I&rsquo;m curious about the book but probably won&rsquo;t read it. And Harris says that the audio version doesn&rsquo;t even p[aint him in the right light. I donno. I&rsquo;ll jsut take his word for it for now as I&rsquo;m just now diving into the New Atheist philophy stuff.</p>
+
+<p>I definitely can&rsquo;t defend anything they discuss yet. I don&rsquo;t know where I land on the atheism spectrum but I know I ahve shifted in teh past decade. Is social athesim a thing? And if so, can it be coupled with exestential nihilism?</p>
+
+<p>I like overwhelming my brain as of late but I need to tread lighltly as nto to seem <p>#verysmart</p></p>
+
+<p>BRB, have to Google how to show a hash sign in markdown without turning it int oa header&hellip;</p>
+]]></content>
+      
+  </entry>
   
   <entry>
     
@@ -1728,34 +1755,6 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
 
 
 <p>UPDATE: Fixed the applicatoin.html.erb code to show green on success and red on error. The code from the guide was for a previous version of Rails and stuff got changed and it treated a bit differently in the version I am using (v. 4.2.1).</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[blogspot-07.10.15]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-10-dot-15/"/>
-    
-    <updated>2015-12-18T15:00:42-06:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-10-dot-15</id>
-    
-      <content type="html"><![CDATA[<p>I am currently on chapter 10 of the Hartl book with the Twitter clone and about halfway through the Etsy clone. I think for the time being I will call them TC and EC, respectively. I learned a very interesting thing about Rails sine I am working on the 2 projects in tandem. There is an easy way and a hard way in Rails.</p>
-
-<p>I spent about 4-5 hours working through the login stuff for TC because Hartl has you do it all by hand. Now, that covers the gambit. Logging in, logging out, signing up, etc. It also covers form validation which is a very important aspect of web apps and sites in today&rsquo;s current state of internet. We don&rsquo;t yet have an internet ID we can use for everything. Maybe an internet driver&rsquo;s licence will be a future project.</p>
-
-<p>So Hartl grinds it out the old fashioned way, and mind you, Rails is fairly stream-lined compared to ASP.NET or other MVC environments that I am aware of. But the Udemy video tutorial guy is awesomely lazy and is like, there&rsquo;s a gem that handles all the logging in. You just gotta grab it, bundle install, and the configure the gem for your application. After that, it creates all the routes for you and it&rsquo;s a matter of plugging the routes into the forms you build from scratch. And I mean you can barely even call that &ldquo;from scratch.&rdquo;</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;li&gt;</span><span class="err">&lt;</span>%= link_to &quot;About&quot;, pages_about_path %&gt;<span class="nt">&lt;/li&gt;</span>
-</span><span class='line'><span class="nt">&lt;li&gt;</span><span class="err">&lt;</span>%= link_to &quot;Contact&quot;, pages_contact_path %&gt;<span class="nt">&lt;/li&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>is all you really need to do. The gem has already built the pages that those pieces of code link to. It&rsquo;s very elegant to say the least. All that you really need to do is some CSS/Bootstrap-y magic to get it looking nice.</p>
-
-<p>I still got some more understanding definitely and I don&rsquo;t think I will ever fully know all of it, but at least I am getting to the point where I can crate something usable. I&rsquo;ll try to finish up the chapter I&rsquo;m currently on on the EC project in the morning. I think I&rsquo;m going to relax tonight and play some video games. I recently picked up Papo &amp; Yo and it is one of the most endearing and sad puzzle games I have ever played. I think I already figured out the overarching story/tone based on the little dedication splash right before you start playing. Sad subject but interesting that the developer got out his emotions in such a unique way. I would have just written a shitty poem and cries a little.</p>
 ]]></content>
       
   </entry>
