@@ -18,6 +18,6 @@ After that I started a series from the same podcast wher Harris is dissecting hi
 
 I definitely can't defend anything they discuss yet. I don't know where I land on the atheism spectrum but I know I ahve shifted in teh past decade. Is social athesim a thing? And if so, can it be coupled with exestential nihilism? 
 
-I like overwhelming my brain as of late but I need to tread lighltly as nto to seem <p>#verysmart</p>
+<p>I like overwhelming my brain as of late but I need to tread lighltly as nto to seem #verysmart</p>
 
 BRB, have to Google how to show a hash sign in markdown without turning it int oa header...
