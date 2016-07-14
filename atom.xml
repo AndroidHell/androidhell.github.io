@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-07-13T20:34:45-05:00</updated>
+  <updated>2016-07-13T20:44:47-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -20,22 +20,32 @@
     <updated>2016-07-13T20:16:30-05:00</updated>
     <id>http://http://androidhell.github.io/blog/2016/07/13/starting-with-the-tooth-picks</id>
     
-      <content type="html"><![CDATA[<p>I may have eluded to this a few posts ago but I had a bit of a tweet-fest a few weeks ago concerning the idea of why we should stop learning new things. I did my stint  at college and I should just stop reading new things or tinkering with a new programming language? Why? Just today at work I spent time playing with yet another library for Python that adds another new facet to a always impressive arsenal of tools that is Python. Python is simple as a language but it&rsquo;s estensability is almsot unmatched save for maybe Javascript, and I blame th ejipsters for that. Angular? Do we really need another stack guys?</p>
+      <content type="html"><![CDATA[<p><strong>Is it just determinism?</strong></p>
 
-<p>Spent today playing with a GUI toolkit for Python called Tkinter. It&rsquo;s bascailly a whole library full of al the things you need to make the elements you see on a standards desktop OS window. Window decorations, buttons, text fields, sliders, radios, etc. It&rsquo;s like QT&rsquo;s distant, clunkier cousin. I say this only because QT has a IDE and Tkinter doesn&rsquo;t.</p>
+<p>I may have eluded to this a few posts ago but I had a bit of a tweet-fest a few weeks ago concerning the idea of why we should stop learning new things. I did my stint  at college and I should just stop reading new things or tinkering with a new programming language? Why? Just today at work I spent time playing with yet another library for Python that adds another new facet to a always impressive arsenal of tools that is Python. Python is simple as a language but it&rsquo;s extensibility is almost unmatched save for maybe JavaScript, and I blame the hipsters for that. Angular? Do we really need another stack guys?</p>
 
-<p>I spent today breaking windows and sifting through debug garbage while trying to get functioanl buttons. I&rsquo;m also trying(READ: failing) to get a nested terminal CLI to spit out terminal data as if you were runnign everythign from CLI to begin with. It&rsquo;s not going well.</p>
+<p>Spent today playing with a GUI toolkit for Python called Tkinter. It&rsquo;s basically a whole library full of all the things you need to make the elements you see on a standards desktop OS window. Window decorations, buttons, text fields, sliders, radios, etc. It&rsquo;s like QT&rsquo;s distant, clunkier cousin. I say this only because QT has a IDE and Tkinter doesn&rsquo;t.</p>
 
-<p>I also finished the podcast of Sam Harris' and Danial Dennett&rsquo;s barroom debate. I was happy that they finished it as the gentlemen I&rsquo;d like to think they are even though they deisagreed with each other the entire time. It&rsquo;s wierd readign two of the 4 horsemen, as they are referred to as, discuss the same thing, which they agree on, and yet, all the while disagreeing with each other. The discussion was intence and at times over my head.</p>
+<p>I spent today breaking windows and sifting through debug garbage while trying to get functional buttons. I&rsquo;m also trying(READ: failing) to get a nested terminal CLI to spit out terminal data as if you were running everything from CLI to begin with. It&rsquo;s not going well.</p>
 
-<p>After that I started a series from the same podcast wher Harris is dissecting his most recent book since a lot of people apparently wanted to lynch him over it. I&rsquo;m halfway through the first part but from what I gather, he&rsquo;s trying to cover his ass but explaining that when he was discussing Muslims, he was intending to mena the radical militant ones and not ALL MUSLIMS. He explained that he thoght his listeners understood that he was referencing Islamists and not Religion of Peace Muslims. I&rsquo;m curious about the book but probably won&rsquo;t read it. And Harris says that the audio version doesn&rsquo;t even p[aint him in the right light. I donno. I&rsquo;ll jsut take his word for it for now as I&rsquo;m just now diving into the New Atheist philophy stuff.</p>
+<p>I also finished the podcast of Sam Harris' and Danial Dennett&rsquo;s barroom debate. I was happy that they finished it as the gentlemen I&rsquo;d like to think they are even though they disagreed with each other the entire time. It&rsquo;s weird reading two of the 4 horsemen, as they are referred to as, discuss the same thing, which they agree on, and yet, all the while disagreeing with each other. The discussion was intense and at times over my head.</p>
 
-<p>I definitely can&rsquo;t defend anything they discuss yet. I don&rsquo;t know where I land on the atheism spectrum but I know I ahve shifted in teh past decade. Is social athesim a thing? And if so, can it be coupled with exestential nihilism?</p>
+<p>After that I started a series from the same podcast where Harris is dissecting his most recent book since a lot of people apparently wanted to lynch him over it. I&rsquo;m halfway through the first part but from what I gather, he&rsquo;s trying to cover his ass but explaining that when he was discussing Muslims, he was intending to mean the radical militant ones and not ALL MUSLIMS. He explained that he thought his listeners understood that he was referencing Islamists and not Religion of Peace Muslims. I&rsquo;m curious about the book but probably won&rsquo;t read it. And Harris says that the audio version doesn&rsquo;t even paint him in the right light. I donno. I&rsquo;ll just take his word for it for now as I&rsquo;m just now diving into the New Atheist philosophy stuff.</p>
+
+<p>I definitely can&rsquo;t defend anything they discuss yet. I don&rsquo;t know where I land on the atheism spectrum but I know I have shifted in the past decade. Is social atheism a thing? And if so, can it be coupled with existential nihilism?</p>
 
 <p>I like overwhelming my brain as of late but I need to tread lighltly as nto to seem #verysmart</p>
 
 
 <p>BRB, have to Google how to show a hash sign in markdown without turning it int oa header&hellip;</p>
+
+<p>Ok. Continuing:</p>
+
+<p>So I will be exploring philosophy as my new free study subject. I won&rsquo;t be engaging in discussion though. I&rsquo;m gonna try to avoid any foot-in-mouth like what I ended up with during Political-poluza 2016.</p>
+
+<p>And if the rabbit hole ends up caving in on me, I can just move to a new subject to study. I still have Unity development I can learn, or finish working with the 2D roguelike python framework that I used to fork the tank roguelike a while back. Maybe I should just learn Python completely and be done with it. In any case. I have avenue to walk down and hopefully I will stop by a door wit ha light on and some new books to read.</p>
+
+<p>I do have a theory on the subject of free will versus determinism. I think it&rsquo;s a bit of both. I think there maybe be a sort of biological RNG working behind the scenes. So if you subscribe to free will, it would mean that you choose to do a thing. If you subscribe to determinism, you are destined to do a thing. What if there is a weight chance of you being either destined to do a thing or a weighted chance that you can do the thing of your own will? more on this as I understand what the hell it is I&rsquo;m trying to say.</p>
 ]]></content>
       
   </entry>
