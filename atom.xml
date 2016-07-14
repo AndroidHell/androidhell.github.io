@@ -4,13 +4,58 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-07-13T20:44:47-05:00</updated>
+  <updated>2016-07-13T21:17:52-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Over-analyzing how duct-tape functions]]></title>
+    <link href="http://androidhell.github.io/blog/2016/07/13/overanalyzing-how-duct-tape-functions/"/>
+    
+    <updated>2016-07-13T21:00:39-05:00</updated>
+    <id>http://http://androidhell.github.io/blog/2016/07/13/overanalyzing-how-duct-tape-functions</id>
+    
+      <content type="html"><![CDATA[<p><strong>I LIED</strong></p>
+
+<p>Ok so let&rsquo;s explore this RNG theory of mine before I decide on a proper name. And then maybe I can start into something else I have been wanting to write about.</p>
+
+<p>So the podcast with Harris and Dennett uses a scenario involving Tiger Woods where he has a 999 out of 1000 chance of getting a golf ball in on a 2 foot put. And for some reason, he misses. They go into why he missed and whether it was up to some predetermined event or if he just partied to hard the night before. They even add a bird chirping at the right moment that took him out of the zone. Dennett eludes to the bird being a random event but I begot differ since a golf course is surrounded by trees and birds live in trees so chances are, there are birds. But I do get his point.</p>
+
+<p>What I propose is that the two elements work together in a tug of war and can be manipulated. Well, free will can be manipulated which can change determinism. Ugh&hellip; Let&rsquo;s try this:</p>
+
+<p>Let&rsquo;s say you are on vacation in Vegas with your spouse. The vacation and location has been planned and everything is known ahead of time. So we will rule out any smartypants thinking there. Let&rsquo;s say however, that you like to gamble and your spouse doesn&rsquo;t like you to do so. Gambling in itself is innately random so that is why I chose this example. Let&rsquo;s say you promise you won&rsquo;t play poker at the casino that your hotel is connected to.</p>
+
+<p>But you have a fight and after a few beers, you storm out of the hotel room and just start walking. You end up at the front doorway of the casino and figure, screw it, and you go in and pay for some chips, find a table and set down.</p>
+
+<p>What is free will and what is per-determined? You have to follow the events to find out what is determined but what if a random even, or a series of them changes the destined outcome.</p>
+
+<p>If you didn&rsquo;t fight, you would have less of a chance or relapsing and gambling. Maybe we should include actually staying at the hotel with the casino connected.</p>
+
+<p>Maybe the spouse deliberately challenged you to gamble.</p>
+
+<p>so we have forces manipulating an otherwise uneventful situation.</p>
+
+<p>You can choose not to gamble and you have, let&rsquo;s say a usually 1 in 4 chances of gambling due to your addiction. Let&rsquo;s say, frustration and fighting with your spouse raises that to 1 in 2 chances. a 50% chance is relatively common. If you&rsquo;ve played RNG-based video games you can agree.</p>
+
+<p>So is the fight predetermined? What if you know you can avoid a fight? Did you start the fight of free will in order to gamble?</p>
+
+<p>What if there are too many chances for either free will or determinism to be the right answer, I guess, is what I&rsquo;m trying to get at. What if there is an element of randomness involved?</p>
+
+<p>This is, of course, assuming that we have actual RNG and not pseudo-RNG based on a computer-calculated seed.</p>
+
+<p>I am officially more confused than when I started&hellip;</p>
+
+<p>To be continued???</p>
+
+<p>PS: I forgot what the other part I was gonan write about was suppsoed to be&hellip;</p>
+]]></content>
+      
+  </entry>
   
   <entry>
     
@@ -1683,89 +1728,6 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
 <p>Errors now gone, I should be ready to set up password reset stuff, which will be a journey in itself. Then after that, we can start finally working on the main feature of the project; posting user generated content.</p>
 
 <p>At this point, I&rsquo;m also considering calling the final project an alpha but starting from scratch and rebuilding everything based on my knowledge from both projects. I would really like to implement paperclip and devise into the TC and also redo the entire styling. I might come up with soem doodles later on on what I&rsquo;m imagining.</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[blogspot-07.11.15]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-11-dot-15/"/>
-    
-    <updated>2015-12-18T15:03:17-06:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-11-dot-15</id>
-    
-      <content type="html"><![CDATA[<p>I&rsquo;m skipping workout to focus on code this morning. I&rsquo;m working on EC for the time being and wanted to write a quick followup to the whole devise gem praise I gave yesterday. The gem is great for automating all your authentication needs but according to the author of the guide on Udemy, it isn&rsquo;t easy to re-style the alert messages to reflect those of actual Bootstrap. He wrote a weird bit of voodoo magic that accomplishes that.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="err">&lt;</span>% flash.each do |name, msg| %&gt;
-</span><span class='line'>  <span class="err">&lt;</span>% if msg.is_a?(String) %&gt;
-</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-&lt;%= name.to_s == &quot;</span><span class="na">notice</span><span class="err">&quot;</span> <span class="err">?</span> <span class="err">&quot;</span><span class="na">success</span><span class="err">&quot;</span> <span class="na">:</span> <span class="err">&quot;</span><span class="na">danger</span><span class="err">&quot;</span> <span class="err">%</span><span class="nt">&gt;</span> alert-dismissable&quot;&gt;
-</span><span class='line'>      <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;close&quot;</span> <span class="na">data-dismiss=</span><span class="s">&quot;alert&quot;</span> <span class="na">aria-hidden=</span><span class="s">&quot;true&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;times;</span><span class="nt">&lt;/button&gt;</span>
-</span><span class='line'>      <span class="err">&lt;</span>%= content_tag :div, msg, :id =&gt; &quot;flash_#{name}&quot; %&gt;
-</span><span class='line'>    <span class="nt">&lt;/div&gt;</span>
-</span><span class='line'>  <span class="err">&lt;</span>% end %&gt;
-</span><span class='line'><span class="err">&lt;</span>% end %&gt;
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>He placed this bit of crazy right above the &lt;% yield %> tag that displays the pay content. Since this is in application.html.erb it will be able to function on all pages.</p>
-
-<p>On reflection, it is really interesting that a developer can take something as complicated as authentication and form validation and wrap it up into a nice little import-able lib/gem and someone else can point out a single &ldquo;unfixable&rdquo; flaw and write some code that acts as a standalone fix.</p>
-
-<p>EDIT: Second part of code magic. Make a new file in app/helpers/ called devise_helper.rb and add:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">module</span> <span class="nn">DeviseHelper</span>
-</span><span class='line'>  <span class="k">def</span> <span class="nf">devise_error_messages!</span>
-</span><span class='line'>    <span class="k">return</span> <span class="s2">&quot;&quot;</span> <span class="k">if</span> <span class="n">resource</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">empty?</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="n">messages</span> <span class="o">=</span> <span class="n">resource</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">full_messages</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">msg</span><span class="o">|</span> <span class="n">content_tag</span><span class="p">(</span><span class="ss">:li</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span> <span class="p">}</span><span class="o">.</span><span class="n">join</span>
-</span><span class='line'>    <span class="n">sentence</span> <span class="o">=</span> <span class="no">I18n</span><span class="o">.</span><span class="n">t</span><span class="p">(</span><span class="s2">&quot;errors.messages.not_saved&quot;</span><span class="p">,</span>
-</span><span class='line'>                                  <span class="ss">:count</span> <span class="o">=&gt;</span> <span class="n">resource</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">count</span><span class="p">,</span>
-</span><span class='line'>                                  <span class="ss">:resource</span> <span class="o">=&gt;</span> <span class="n">resource</span><span class="o">.</span><span class="n">class</span><span class="o">.</span><span class="n">model_name</span><span class="o">.</span><span class="n">human</span><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'>     <span class="n">html</span> <span class="o">=</span> <span class="o">&lt;&lt;-</span><span class="no">HTML</span>
-</span><span class='line'><span class="sh">    &lt;div class=&quot;alert alert-danger alert-dismissable&quot;&gt;</span>
-</span><span class='line'><span class="sh">      &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;</span>
-</span><span class='line'><span class="sh">      &lt;h4&gt;#{sentence}&lt;/h4&gt;</span>
-</span><span class='line'><span class="sh">      #{messages}</span>
-</span><span class='line'><span class="sh">    &lt;/div&gt;</span>
-</span><span class='line'><span class="no">    HTML</span>
-</span><span class='line'>
-</span><span class='line'>     <span class="n">html</span><span class="o">.</span><span class="n">html_safe</span>
-</span><span class='line'>  <span class="k">end</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>UPDATE: Fixed the applicatoin.html.erb code to show green on success and red on error. The code from the guide was for a previous version of Rails and stuff got changed and it treated a bit differently in the version I am using (v. 4.2.1).</p>
 ]]></content>
       
   </entry>
