@@ -4,13 +4,48 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-07-13T21:18:48-05:00</updated>
+  <updated>2016-07-25T21:21:46-05:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Some Trump and some Harris and a Giant Snake]]></title>
+    <link href="http://androidhell.github.io/blog/2016/07/25/some-trump-and-some-harris-and-a-giant-snake/"/>
+    
+    <updated>2016-07-25T21:16:55-05:00</updated>
+    <id>http://http://androidhell.github.io/blog/2016/07/25/some-trump-and-some-harris-and-a-giant-snake</id>
+    
+      <content type="html"><![CDATA[<p>I had started writing a blog last night but seemed to have ingested too much beer and realized I was starting some quasi-intelligent ramble but ended up on another Donald Trump rant. I deleted it as I had mentioned that I wanted to devote my blog time more to off-the-cuff stuff and I feel I’ve been ranting too much about him.</p>
+
+<p>Let’s get this out before I move on: Trump caters to the lowest common denominator. That means that if you like him, you are the LCD. Urban Dictionary defines the LCD as the dumbass in a group of dumbasses. Both Stephen Hawking and Sam Harris has stated this. And both those people are known for their ability to think. In short, this is saying that if you follow Trump, you are dumb. Maybe not actually unintelligent, but dumb for following him. I know some educated people that are voting for him and they are outliers. Ok moving on.</p>
+
+<p>I got formerly introduced to Sam Harris recently. I am sure I’ve heard the name in passing conversation since I discussed “The New Atheists” with a close friend a few times. I listened to the podcast of Dan Carlin’s with Harris on it and decided to switch gears to his own podcast “Waking Up.”</p>
+
+<p>I realized in short order that we are both on the same page about a lot of stuff. I donno if he is just parroting what I’ve heard before or thought of independently but somehow we are on the same page.</p>
+
+<p>I was enjoying the podcast until he released a previously unreleased debate between himself and Omar Aziz, a former radical Islamist. I stopped listening to it because it was just the two of them yelling at each other. The Ken Ham/Bill Nye debate had more tact than whatever this was.</p>
+
+<p>So I’ve since moved on. I’m burning through some Freakonimics episodes until I get ready to either jump back into Carlin or Harris.</p>
+
+<p>I also really enjoyed Harris’ debate with Daniel Dennett about free will. I was lost in the sauce for some of it, as anyone might have guessed. Of all the philological exercises I’ve learned of, free will will always be beyond my understanding. I got an A on that paper back in school and still have no idea about it. The podcast is a fun listen to nonetheless. I’d suggest listening to it if you can sit down for the entire session since it’s hard to get back into the material. At least it was for me.</p>
+
+<p>So where do I go from here, this “life after Trump”? I mean I know it ain’t over but at least the rest of the ride will be for the lulz. I like this current overload of new and revisited information that I’ve been doing so I’m gonna continue in that direction. I’ll follow up with this when I have had a moment to develop ideas about it.</p>
+
+<p>In other news, I did some programming soul searching and have chosen to focus on Python until something changes. Keeping in mind that I’m not a good programmer, I will say this. The language is fairly easy to get into and since it’s syntactically minimalistic, it’s very conducive to learning new concepts about writing code. It’s a language that is 30 years old and doesn’t have a switch statement. That is programming survival of the fittest right there.</p>
+
+<p>My reasoning behind choosing it are as follows; I’ve been using it at work lately since most of the Raspberry Pi project is done in Python. I’ve also been doing a few smaller projects on the side that is in Python. The one thing I’ve done that wasn’t was a watch app that I did in JavaScript since the watch can only run apps written in Objective C and JavaScript. I would have done it in ObjC since it’s less resource hungry but I know a bit of JS and almost no ObjC. I might rewrite it down the road but ClayJS was released recently and I want to check it out as well. Back to Python, another reason is that it’s the language that I started my journey with so I feel that it is suitable to end a chapter in my life by focusing on Python.</p>
+
+<p>So while everyone is shooting each other and we have to decide on Clinton or Trump for president of the free world, I’m gonna just become a recluse and hide in my apartment and work on Python skills.</p>
+
+<p>I think this is a good stopping point since the other stuff I wanted to write about is a handful of non sequiturs.</p>
+]]></content>
+      
+  </entry>
   
   <entry>
     
@@ -1703,31 +1738,6 @@ The first query looks like I arbitrarily used 293px but I came up with that afte
 <p>The only real caveat here is that if you are using Turbolinks/Jquery-Turbolinks, the scripts won&rsquo;t work unless you reload the entire page. As, the saying goes, that just isn&rsquo;t the Rails way. We have a full site built on _partials and all sorts of modular pieces and we haven&rsquo;t come this far to get hung up by a stupid page refresh. The onl solution I found to fix Javascript stopping on a link click was to remove the Turbolinks and JQuery-Turbolinks  gems altogether including deleting them from application.js. The other fixes I found didn&rsquo;t work for me.</p>
 
 <p>Anyway, this was my attempt at a guide. Sorry about any confusion ahead of time. Happy coding!</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[blogspot-07.14.15]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-14-dot-15/"/>
-    
-    <updated>2015-12-18T15:05:02-06:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/18/blogspot-07-dot-14-dot-15</id>
-    
-      <content type="html"><![CDATA[<p>Errors. Errors everywhere.</p>
-
-<p>As I was working through the TC stuff last night and finishing up user validation and testing whether users could masquerade as other users, I stumbled headlong into what I will call my 3rd bug hell of this project. The problem with being human is that you are incredibly prone to error. It&rsquo;s in our very nature to screw stuff up. It&rsquo;s that deciding factor that will forever separate us from machines. Sure some machines break down but that&rsquo;s just poor design or manufacturing by a human more than it is wear and tear. (There is still a measurable amount of w&amp;t in machinery, I know but it&rsquo;s not as significant as , say a DOA hard drive from an oversight or mistake made by the person running the hard drive making machines.)</p>
-
-<p>I digress. I was working through the book code to finish the user integration testing and had a handful of errors that were easy to fix. Just had to deal with a rabbit hole of them. Then right as I was finishing the first section of chapter10, I did another &lsquo;rake test&rsquo; and hit this handful of errors that I couldn&rsquo;t even figure out what the messages were meaning. On  Cloud 9, in the terminal, you can click on the file path related to the error and tell it to open the file and it will direct you to the exact line of code. Easy enough to check on stuff. But the problem lies in the fact that even though that line might be what is erroring out, it is doing so from another bit of code that it is pulling from. Say you wrote a method and had a logical error or a typo in it. In this hypothetical, the controller using that method from your &lsquo;helper&rsquo; file would show the error. You can state at that line all day long and decide it is correct as hell, or you can follow the rabbit trail of what you just did to get there. This is where Eclipse and Visual Studio excel at because they have the function of stepping through while debugging. This is probably why I make use either Eclipse or Aptana to develop locally from now on. Or, at the very least, debug in one of those two, but keep Sublime Text as my main dev too so things stay light and crisp.</p>
-
-<p>I worked on fighting those bugs for about 3 hours and finally figured out that I had a line of code that was logging in the user, then going into an &lsquo;if/else&rsquo; and the first thing it was doing was logging in the user again. My errors said nothing about the user being logged in twice or anything closely resembling that message. The worst part about it is that it was a simple oversight on my part. After that I was down to 1 error, which I finally found to be a typo. Cleaned that up and had another typo right after that line. Again, cleaned up and ran another test and everything came out green.</p>
-
-<p>What annoys me is that it isn&rsquo;t as simple as saying &ldquo;Hey, this is what&rsquo;s wrong.&rdquo; It&rsquo;s following hte trail and actually knowing your code. Make comments that tell you where this thing is coming from or going to. Make a flow chart if need be. A mechanic doesn&rsquo;t just hop under the car without knowing point A and point B of the exhaust system.</p>
-
-<p>Errors now gone, I should be ready to set up password reset stuff, which will be a journey in itself. Then after that, we can start finally working on the main feature of the project; posting user generated content.</p>
-
-<p>At this point, I&rsquo;m also considering calling the final project an alpha but starting from scratch and rebuilding everything based on my knowledge from both projects. I would really like to implement paperclip and devise into the TC and also redo the entire styling. I might come up with soem doodles later on on what I&rsquo;m imagining.</p>
 ]]></content>
       
   </entry>
