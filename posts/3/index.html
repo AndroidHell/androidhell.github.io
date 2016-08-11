@@ -7,7 +7,7 @@
 
 	<meta name="author" content="Ralkkai">
 
-<meta name="description" content="Errors. Errors everywhere. As I was working through the TC stuff last night and finishing up user validation and testing whether users could &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="The Magic Panel I&rsquo;m almost done with the rails tutorial and think I have a plan for the app itself. I want to offer it to empeopled.com as a &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -47,6 +47,206 @@
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2015/12/18/the-magic-panel-blogspot/">The Magic Panel - Blogspot</a>
+			
+		</h2>
+		<div class="meta date">
+
+
+
+<time class='entry-date' datetime='2015-12-18T15:06:18-06:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span></time></div>
+	</header>
+	<div class="entry-content">
+		<p>The Magic Panel</p>
+
+<p>I&rsquo;m almost done with the rails tutorial and think I have a plan for the app itself. I want to offer it to empeopled.com as a sort of self-contained friend-feed. I was struck by just how close the community was when I was helping a user tweak his Chrome extension for the site. I&rsquo;ll probably post about that when/if he ever gets it to github. He said he wants to work out the kinks before he feels it&rsquo;s ready for the public to use. He wants the features fleshed out.</p>
+
+<p>With that said, I made a thing. It&rsquo;s still a bit clunky but it does what I think it is supposed to so let&rsquo;s call this an impromptu guide on said thing. So, I like Bootstraps responsive navbar, and I like making it a sidebar instead. I also like having a sticky side-panel and the news feed on the other side. In Bootstrap speak, you have your core profile info in a md-col-4 and the actual news feed in a md-col-8. The sidebar won&rsquo;t move but the feed will on mouse scroll. The catch is that you maintain Bootstrap&rsquo;s responsive behavior all the while. It got real tricky, real fast. Let&rsquo;s jump in, shall we?</p>
+
+<p>The hard part first: I have all my Javascript in a file called extras.js so I can keep track of my own JS and keep it separate from the stuff required/generated for Rails. The full JS file is as follow:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="c1">//this is stuff I added along the way while going through the tutorial</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">//needed to add the sidebar slide out on smaller screens</span>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">sideslider</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;[data-toggle=collapse-side]&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">sel</span> <span class="o">=</span> <span class="nx">sideslider</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;data-target&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">sel2</span> <span class="o">=</span> <span class="nx">sideslider</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;data-target-2&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="nx">sideslider</span><span class="p">.</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">){</span>
+</span><span class='line'>        <span class="nx">$</span><span class="p">(</span><span class="nx">sel</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="s1">&#39;in&#39;</span><span class="p">);</span>
+</span><span class='line'>        <span class="nx">$</span><span class="p">(</span><span class="nx">sel2</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="s1">&#39;out&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">});</span>
+</span><span class='line'><span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">//needed to get the dropdown working properly.  </span>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.dropdown-toggle&quot;</span><span class="p">).</span><span class="nx">dropdown</span><span class="p">();</span>
+</span><span class='line'><span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">//animated hamburger button - uses navbar-toggle so no need changing there.</span>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>   <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;.navbar-toggle&quot;</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s2">&quot;click&quot;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>      <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="s2">&quot;active&quot;</span><span class="p">);</span>
+</span><span class='line'>   <span class="p">});</span>
+</span><span class='line'><span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">//affix script. Might try to move it to extras.js later</span>
+</span><span class='line'><span class="c1">//http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-affix.php</span>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#myNav&quot;</span><span class="p">).</span><span class="nx">affix</span><span class="p">();</span>
+</span><span class='line'><span class="p">});</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">equipped</span> <span class="kd">with</span> <span class="nx">all</span> <span class="nx">my</span> <span class="nx">comments</span><span class="p">.</span> <span class="nx">I</span> <span class="nx">literally</span> <span class="nx">pulled</span> <span class="nx">it</span> <span class="nx">directly</span><span class="p">.</span>  <span class="nx">The</span> <span class="nx">part</span> <span class="nx">we</span> <span class="nx">will</span> <span class="nx">focus</span> <span class="nx">on</span> <span class="nx">is</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#myNav&quot;</span><span class="p">).</span><span class="nx">affix</span><span class="p">();</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This uses some JQuery magic to affix whatever I use the #MyNav on it&rsquo;s div. It&rsquo;s similar to using static versus fixed in CSS. but it works with the responsive nature of the site.  So we tuck that into the extras.js file and move on to our HTML which will be the easier part:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;aside</span> <span class="na">class=</span><span class="s">&quot;col-md-4&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;div</span> <span class="na">data-spy=</span><span class="s">&quot;affix&quot;</span> <span class="na">data-offset-top=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="c">&lt;!-- side panel goes here v--&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;/div&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/aside&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;col-md-8&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="c">&lt;!-- page content goes here --&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;/div&gt;</span>
+</span><span class='line'><span class="nt">&lt;/div&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here we have the md-col-4 and md-col-8 that I mentioned earlier. Bootstrap uses these to segregate the content for your own amusement and manipulation. Our profile content goes in the -4 and our feed, in the -8. Once we have the Bootstrap logic set up, we can then add our bit of JQuery to the HTML with:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">data-spy=</span><span class="s">&quot;affix&quot;</span> <span class="na">data-offset-top=</span><span class="s">&quot;0&quot;</span><span class="nt">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p> This added the affix function along with a data-offset function that we set to &ldquo;0&rdquo; to keep the div in the same place when we scroll. If you set it to another number it will be positioned differently. On some monitors/browsers, you may notice the div flicker on scroll and occasionally it will scroll and catch and with that said, this isn&rsquo;t perfect, but it does work.</p>
+
+<p>The final bit of magic is using 2 Bootstrap media queries for the separate screen sizes. This bit was hard to get right and took an hour or two of tinkering and crashing my virtual server on Cloud 9 several times. When you spam edit/save the CSS it loads the RAM and then it takes a shit. It&rsquo;s a limit of having a server with only 512 MB of RAM for a dev environment I guess. Anyway, the CSS:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.affix</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">width</span><span class="o">:</span> <span class="m">360px</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">@media</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">1200px</span><span class="o">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nc">.affix</span><span class="p">{</span> <span class="k">width</span><span class="o">:</span> <span class="m">293px</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">position</span><span class="o">:</span> <span class="k">fixed</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>  <span class="nc">.microposts</span><span class="p">{</span>
+</span><span class='line'>    <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">@media</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">992px</span><span class="o">)</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nc">.affix</span><span class="p">{</span> <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">position</span><span class="o">:</span> <span class="k">static</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'>  <span class="nc">.microposts</span><span class="p">{</span>
+</span><span class='line'>    <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>We start by setting a fixed width for the .affix class because it will resize on scroll otherwise. I never figured out why it naturally wants to change the entire section&rsquo;s size but it does so we fix it to the same width of the &lt;aside&gt; and it stays put. We then add two important media queries that will keep things at a correct spot on different screen sizes. The goal was to have a side-panel for most/all computer screens but go into a single column on tablet and mobile screens.
+The first query looks like I arbitrarily used 293px but I came up with that after a series of trials and errors of resizing the browser until it behaved properly. This is for smaller desktop/laptop screens. The second query is for going into a single column, indicated by width: 100%; for both the .affix and .micropost classes.</p>
+
+<p>Now that we have all the pieces in place, you should have a functioning responsive-fixed-hybrid page along with all your other Bootstrappy magic.</p>
+
+<p>The only real caveat here is that if you are using Turbolinks/Jquery-Turbolinks, the scripts won&rsquo;t work unless you reload the entire page. As, the saying goes, that just isn&rsquo;t the Rails way. We have a full site built on _partials and all sorts of modular pieces and we haven&rsquo;t come this far to get hung up by a stupid page refresh. The onl solution I found to fix Javascript stopping on a link click was to remove the Turbolinks and JQuery-Turbolinks  gems altogether including deleting them from application.js. The other fixes I found didn&rsquo;t work for me.</p>
+
+<p>Anyway, this was my attempt at a guide. Sorry about any confusion ahead of time. Happy coding!</p>
+
+		
+		
+	</div>
+
+
+	
+	</article>
 
 
     <article class="post">
