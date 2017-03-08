@@ -4,13 +4,35 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2016-08-10T20:51:51-05:00</updated>
+  <updated>2017-03-08T07:55:16-06:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
     
   </author>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[Sample Portfolio]]></title>
+    <link href="http://androidhell.github.io/blog/2017/03/08/sample-portfolio/"/>
+    
+    <updated>2017-03-08T07:44:38-06:00</updated>
+    <id>http://http://androidhell.github.io/blog/2017/03/08/sample-portfolio</id>
+    
+      <content type="html"><![CDATA[<p>A quick and dirty sample of sites I&rsquo;ve worked on sine my currently portfolio is down due to financial issues.</p>
+
+<p>BuffTeks Site - Wordpress
+<img class="center" src="http://androidhell.github.io/images/blog/buffteks.png" width="1415" height="4115" title="image" alt="images"></p>
+
+<p>Financial Payments Site - Wordpress
+<img class="center" src="http://androidhell.github.io/images/blog/financialpayments.png" width="1415" height="3067" title="image" alt="images"></p>
+
+<p>Biti Pie Site - Drupal
+<img class="center" src="http://androidhell.github.io/images/blog/bitipie.png" width="1415" height="1239" title="image" alt="images"></p>
+]]></content>
+      
+  </entry>
   
   <entry>
     
@@ -1550,29 +1572,6 @@ vehemence - peace</p></blockquote>
 <p>Also, totally off topic but I bought Saint&rsquo;s Row IV last night since it finally got ported. I&rsquo;m having a lot of fun with it and it is very much scratching my car sandbox itch. The game is fun and I&rsquo;m upset that I took so long to check it out. One more port to Linux though. This year was looking bleak for Linux gaming with the depressing release of Steam Machines but this last month has been looking better.</p>
 
 <p>Also, get to do X-Mas tonight which is cool. I get to play with my toys early!</p>
-
-<p>-R</p>
-]]></content>
-      
-  </entry>
-  
-  <entry>
-    
-    <title type="html"><![CDATA[Tis the season]]></title>
-    <link href="http://androidhell.github.io/blog/2015/12/21/tis-the-season/"/>
-    
-    <updated>2015-12-21T09:14:32-06:00</updated>
-    <id>http://http://androidhell.github.io/blog/2015/12/21/tis-the-season</id>
-    
-      <content type="html"><![CDATA[<p>The weekend is over and it was fairly busy. I spent Friday with the wife putting the tree up. Did the gift shopping on Saturday and got most stuff wrapped on yesterday. Went to church and talked to Alan and Mark L. about doing the sock drive and as it stands, we are looking at doing it on a dinner night on Feb 13. Announcements will be put in the bulletin.</p>
-
-<p>Things I still need to do before the month is out: I need to get the old blogspot blog shut down. Might just leave it and let it rot on the digital vine, tbh. I also need to continue on my series on the WP blog. I&rsquo;m considering designing a POV app for Android to work with a drone if I get one for X-Mas. I have no idea where to start though.</p>
-
-<p>I guess there isn&rsquo;t much to talk about today. I have no idea what I am going to do this week at work. It&rsquo;s really starting to drain me not having anything to do and just letting the next 2 weeks run out like this. Maybe I&rsquo;ll find a new web project to work on until then. I donno  what though. All my next project ideas would be better suited for home.</p>
-
-<p>My brother bought me Wither 2 for X-Mas. I was reluctant to grab it since it&rsquo;s an eON port but after testing Bioshock: Infinite at medium settings and it running fine, I decided to add W2 to my wishlist. Then he bought it. It&rsquo;s more his game but I&rsquo;ve been enjoying it so far.</p>
-
-<p>Donno what else to say.</p>
 
 <p>-R</p>
 ]]></content>
