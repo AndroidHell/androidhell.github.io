@@ -4,7 +4,7 @@
   <title><![CDATA[Android Hell]]></title>
   <link href="http://http://androidhell.github.io/atom.xml" rel="self"/>
   <link href="http://http://androidhell.github.io/"/>
-  <updated>2017-03-08T07:55:16-06:00</updated>
+  <updated>2017-03-08T07:57:26-06:00</updated>
   <id>http://http://androidhell.github.io/</id>
   <author>
     <name><![CDATA[Ralkkai]]></name>
@@ -22,14 +22,17 @@
     
       <content type="html"><![CDATA[<p>A quick and dirty sample of sites I&rsquo;ve worked on sine my currently portfolio is down due to financial issues.</p>
 
-<p>BuffTeks Site - Wordpress
-<img class="center" src="http://androidhell.github.io/images/blog/buffteks.png" width="1415" height="4115" title="image" alt="images"></p>
+<h2>BuffTeks Site - Wordpress</h2>
 
-<p>Financial Payments Site - Wordpress
-<img class="center" src="http://androidhell.github.io/images/blog/financialpayments.png" width="1415" height="3067" title="image" alt="images"></p>
+<p><img class="center" src="http://androidhell.github.io/images/blog/buffteks.png" width="1415" height="4115" title="image" alt="images"></p>
 
-<p>Biti Pie Site - Drupal
-<img class="center" src="http://androidhell.github.io/images/blog/bitipie.png" width="1415" height="1239" title="image" alt="images"></p>
+<h2>Financial Payments Site - Wordpress</h2>
+
+<p><img class="center" src="http://androidhell.github.io/images/blog/financialpayments.png" width="1415" height="3067" title="image" alt="images"></p>
+
+<h2>Biti Pie Site - Drupal</h2>
+
+<p><img class="center" src="http://androidhell.github.io/images/blog/bitipie.png" width="1415" height="1239" title="image" alt="images"></p>
 ]]></content>
       
   </entry>
