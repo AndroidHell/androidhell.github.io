@@ -8,12 +8,12 @@ categories:
 
 A quick and dirty sample of sites I've worked on sine my currently portfolio is down due to financial issues.
 
-BuffTeks Site - Wordpress
+##BuffTeks Site - Wordpress
 {% img center /images/blog/buffteks.png 1415 4115 'image' 'images' %}
 
-Financial Payments Site - Wordpress
+##Financial Payments Site - Wordpress
 {% img center /images/blog/financialpayments.png 1415 3067 'image' 'images' %}
 
-Biti Pie Site - Drupal
+##Biti Pie Site - Drupal
 {% img center /images/blog/bitipie.png 1415 1239 'image' 'images' %}
 
