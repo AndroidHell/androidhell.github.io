@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-A quick and dirty sample of sites I've worked on sine my currently portfolio is down due to financial issues.
+A quick and dirty sample of sites I've worked on since my currently portfolio is down.
 
 #BuffTeks Site - Wordpress
 {% img center /images/blog/buffteks.png 1415 4115 'image' 'images' %}
